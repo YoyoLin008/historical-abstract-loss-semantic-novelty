@@ -1,7 +1,7 @@
 {
   "version": "v1.0.0",
   "document_package_version": "v1.0.0-rc.1",
-  "release_state": "prepared for journal submission; actual tag/archive verification recorded separately",
+  "release_state": "Published v1.0.0 archive is frozen; this main-branch documentation adds its verified version DOI without a new release.",
   "license_scope": "Per-file MIT code and CC-BY-4.0 own non-text/metadata/documentation; standard legal texts and external material retain their separate terms",
   "scope_mapping": "manifests/license_scope.csv",
   "new_metadata_policy": "docs/license_scope_policy.md",
@@ -19,16 +19,16 @@
       "bytes": 1339
     },
     "CITATION.cff": {
-      "sha256": "798f6bc8cd7791e3af79dde7f89e96e20696b0fc52a0bda46a14dda7916de642",
-      "bytes": 883
+      "sha256": "d7161128bec85c482f8bfeeb9b0490f4e8f7afa0a030f7bb888b123b4aa0129a",
+      "bytes": 1038
     },
     "LICENSE": {
       "sha256": "8632ec3d9dc603ada36e84bcf721800fafbcbc9ec7c78a0a39eb3d22a7290156",
       "bytes": 3196
     },
     "README.md": {
-      "sha256": "2a46541161c06f3b0f3eb57a27511e1ca6ff99ab68080e579f7abea06f19d7be",
-      "bytes": 4767
+      "sha256": "9a4a0aa97e4366124bbd10f3d3c868af0a865c303e089b32ea378517d5276c1d",
+      "bytes": 5017
     },
     "THIRD_PARTY_NOTICES.md": {
       "sha256": "cb537c5bd2b13a1614aedaaea300662a2c1a9e64133bd0ce4a8bbc86d915153a",
@@ -485,5 +485,7 @@
   },
   "scope": "Vetted source/numerical export; excludes manuscripts/private audits/raw texts/arrays/weights/old Git history",
   "self_hash_excluded": true,
-  "scientific_results_changed": false
+  "scientific_results_changed": false,
+  "archived_release_commit": "82bd064fae8f4aff9a2f0b56bb9ec850bd649e89",
+  "archived_version_doi": "10.5281/zenodo.23222368"
 }
