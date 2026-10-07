@@ -1,0 +1,3991 @@
+{
+  "data/derived/original_acl/control_cell_counts.csv": {
+    "record_count": 1200,
+    "field_order": [
+      "assignment_id",
+      "mechanism",
+      "rate",
+      "matching",
+      "zero_cells",
+      "full_cells",
+      "nondegenerate_cells"
+    ],
+    "columns": [
+      {
+        "name": "assignment_id",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mechanism",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "matching",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "zero_cells",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "full_cells",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "nondegenerate_cells",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_acl/cutoff_margin_bins.csv": {
+    "record_count": 300,
+    "field_order": [
+      "rate",
+      "condition",
+      "bin_left",
+      "bin_right",
+      "bin_convention",
+      "baseline_status",
+      "n_papers",
+      "endpoint",
+      "n_masks",
+      "n_undefined",
+      "mean",
+      "median",
+      "sd_over_masks",
+      "mcse",
+      "p05",
+      "p95",
+      "ci_low_raw",
+      "ci_high_raw",
+      "interval"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "bin_left",
+        "type": "float-or-infinity",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": true
+      },
+      {
+        "name": "bin_right",
+        "type": "float-or-infinity",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": true
+      },
+      {
+        "name": "bin_convention",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_status",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_papers",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "endpoint",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_undefined",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean",
+        "type": "float",
+        "missing_count": 150,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "median",
+        "type": "float",
+        "missing_count": 150,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "sd_over_masks",
+        "type": "float",
+        "missing_count": 150,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "mcse",
+        "type": "float",
+        "missing_count": 150,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "p05",
+        "type": "float",
+        "missing_count": 150,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "p95",
+        "type": "float",
+        "missing_count": 150,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_low_raw",
+        "type": "float",
+        "missing_count": 300,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_high_raw",
+        "type": "float",
+        "missing_count": 300,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "interval",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_acl/joint_classification.csv": {
+    "record_count": 9,
+    "field_order": [
+      "rate",
+      "condition",
+      "aggregate",
+      "selection",
+      "ranks",
+      "joint_mean_rule",
+      "joint_with_rank_rule",
+      "descriptive_joint_masks",
+      "n_masks",
+      "descriptive_joint_fraction",
+      "wilson95_low",
+      "wilson95_high",
+      "wilson_scope"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "aggregate",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "selection",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ranks",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "joint_mean_rule",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "joint_with_rank_rule",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "descriptive_joint_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "descriptive_joint_fraction",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "wilson95_low",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "wilson95_high",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "wilson_scope",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_acl/mask_primary_and_movement.csv": {
+    "record_count": 3000,
+    "field_order": [
+      "assignment_id",
+      "condition",
+      "rate",
+      "replicate",
+      "G",
+      "T",
+      "Q",
+      "signed_group_distortion_sd",
+      "group_contrast",
+      "group_contrast_sd",
+      "mean_score_drift",
+      "spearman",
+      "rank_movement_median",
+      "rank_movement_p90",
+      "fraction_moving_more_than_5_percentiles",
+      "selected_lost_count",
+      "selected_gained_count",
+      "loss_in_cutoff_band_per_k",
+      "loss_outside_cutoff_band_per_k",
+      "loss_conditional_selected_outside_band",
+      "far_loss_count_0.01",
+      "far_loss_per_k_0.01",
+      "far_loss_count_0.025",
+      "far_loss_per_k_0.025",
+      "far_loss_count_0.05",
+      "far_loss_per_k_0.05",
+      "far_loss_count_0.1",
+      "far_loss_per_k_0.1",
+      "ACL_lost_count",
+      "ACL_lost_per_k",
+      "ACL_gained_count",
+      "ACL_gained_per_k",
+      "EMNLP_lost_count",
+      "EMNLP_lost_per_k",
+      "EMNLP_gained_count",
+      "EMNLP_gained_per_k",
+      "top_0.05_replacement",
+      "top_0.2_replacement"
+    ],
+    "columns": [
+      {
+        "name": "assignment_id",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "replicate",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "G",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "T",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "Q",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "signed_group_distortion_sd",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "group_contrast",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "group_contrast_sd",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_score_drift",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "spearman",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rank_movement_median",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rank_movement_p90",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "fraction_moving_more_than_5_percentiles",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "selected_lost_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "selected_gained_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "loss_in_cutoff_band_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "loss_outside_cutoff_band_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "loss_conditional_selected_outside_band",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_count_0.01",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_per_k_0.01",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_count_0.025",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_per_k_0.025",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_count_0.05",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_per_k_0.05",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_count_0.1",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_per_k_0.1",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ACL_lost_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ACL_lost_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ACL_gained_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ACL_gained_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "EMNLP_lost_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "EMNLP_lost_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "EMNLP_gained_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "EMNLP_gained_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "top_0.05_replacement",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "top_0.2_replacement",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_acl/paper_selection_probabilities.csv": {
+    "record_count": 23355,
+    "field_order": [
+      "record_id",
+      "source",
+      "rate",
+      "condition",
+      "baseline_selected",
+      "signed_margin_sd",
+      "in_cutoff_band",
+      "selected_probability",
+      "n_masks"
+    ],
+    "columns": [
+      {
+        "name": "record_id",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "signed_margin_sd",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "in_cutoff_band",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "selected_probability",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_acl/table1_cohort_construction.csv": {
+    "record_count": 8,
+    "field_order": [
+      "cohort",
+      "year",
+      "source",
+      "n",
+      "availability",
+      "exclusions_new",
+      "baseline_top_decile_k"
+    ],
+    "columns": [
+      {
+        "name": "cohort",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "year",
+        "type": "integer-or-ALL",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "availability",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "exclusions_new",
+        "type": "string",
+        "missing_count": 6,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_top_decile_k",
+        "type": "integer",
+        "missing_count": 6,
+        "nullable": true,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_acl/table2_aggregate.csv": {
+    "record_count": 300,
+    "field_order": [
+      "rate",
+      "condition",
+      "policy",
+      "metric",
+      "n_masks",
+      "n_undefined",
+      "mean",
+      "median",
+      "sd_over_masks",
+      "mcse",
+      "p05",
+      "p95",
+      "ci_low_raw",
+      "ci_high_raw",
+      "interval"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "policy",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "metric",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_undefined",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "median",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "sd_over_masks",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mcse",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p05",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p95",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_low_raw",
+        "type": "float",
+        "missing_count": 291,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_high_raw",
+        "type": "float",
+        "missing_count": 291,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "interval",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_acl/table3_rank_selection.csv": {
+    "record_count": 1740,
+    "field_order": [
+      "rate",
+      "condition",
+      "policy",
+      "metric",
+      "n_masks",
+      "n_undefined",
+      "mean",
+      "median",
+      "sd_over_masks",
+      "mcse",
+      "p05",
+      "p95",
+      "ci_low_raw",
+      "ci_high_raw",
+      "interval"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "policy",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "metric",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_undefined",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "median",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "sd_over_masks",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mcse",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p05",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p95",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_low_raw",
+        "type": "float",
+        "missing_count": 1722,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_high_raw",
+        "type": "float",
+        "missing_count": 1722,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "interval",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_acl/table4_paired_primary.csv": {
+    "record_count": 18,
+    "field_order": [
+      "rate",
+      "mechanism",
+      "metric",
+      "contrast",
+      "matching",
+      "n_masks",
+      "n_undefined",
+      "mean",
+      "median",
+      "sd_over_masks",
+      "mcse",
+      "p05",
+      "p95",
+      "ci_low_raw",
+      "ci_high_raw",
+      "interval"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mechanism",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "metric",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "contrast",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "matching",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_undefined",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "median",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "sd_over_masks",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mcse",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p05",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p95",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_low_raw",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_high_raw",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "interval",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_acl/threshold_sensitivity.csv": {
+    "record_count": 243,
+    "field_order": [
+      "rate",
+      "condition",
+      "tau_G",
+      "tau_T",
+      "tau_Q",
+      "aggregate",
+      "selection",
+      "ranks",
+      "joint_mean_rule",
+      "joint_with_rank_rule"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "tau_G",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "tau_T",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "tau_Q",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "aggregate",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "selection",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ranks",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "joint_mean_rule",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "joint_with_rank_rule",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_biomedical/control_cell_counts.csv": {
+    "record_count": 400,
+    "field_order": [
+      "assignment_id",
+      "mechanism",
+      "rate",
+      "matching",
+      "zero_cells",
+      "full_cells",
+      "nondegenerate_cells"
+    ],
+    "columns": [
+      {
+        "name": "assignment_id",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mechanism",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "matching",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "zero_cells",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "full_cells",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "nondegenerate_cells",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_biomedical/cutoff_margin_bins.csv": {
+    "record_count": 120,
+    "field_order": [
+      "rate",
+      "condition",
+      "bin_left",
+      "bin_right",
+      "bin_convention",
+      "baseline_status",
+      "n_papers",
+      "endpoint",
+      "n_masks",
+      "n_undefined",
+      "mean",
+      "median",
+      "sd_over_masks",
+      "mcse",
+      "p05",
+      "p95",
+      "ci_low_raw",
+      "ci_high_raw",
+      "interval"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "bin_left",
+        "type": "float-or-infinity",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": true
+      },
+      {
+        "name": "bin_right",
+        "type": "float-or-infinity",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": true
+      },
+      {
+        "name": "bin_convention",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_status",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_papers",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "endpoint",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_undefined",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean",
+        "type": "float",
+        "missing_count": 60,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "median",
+        "type": "float",
+        "missing_count": 60,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "sd_over_masks",
+        "type": "float",
+        "missing_count": 60,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "mcse",
+        "type": "float",
+        "missing_count": 60,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "p05",
+        "type": "float",
+        "missing_count": 60,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "p95",
+        "type": "float",
+        "missing_count": 60,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_low_raw",
+        "type": "float",
+        "missing_count": 120,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_high_raw",
+        "type": "float",
+        "missing_count": 120,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "interval",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_biomedical/joint_classification.csv": {
+    "record_count": 4,
+    "field_order": [
+      "rate",
+      "condition",
+      "aggregate",
+      "selection",
+      "ranks",
+      "joint_mean_rule",
+      "joint_with_rank_rule",
+      "descriptive_joint_masks",
+      "n_masks",
+      "descriptive_joint_fraction",
+      "wilson95_low",
+      "wilson95_high",
+      "wilson_scope"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "aggregate",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "selection",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ranks",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "joint_mean_rule",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "joint_with_rank_rule",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "descriptive_joint_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "descriptive_joint_fraction",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "wilson95_low",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "wilson95_high",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "wilson_scope",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_biomedical/mask_primary_and_movement.csv": {
+    "record_count": 1200,
+    "field_order": [
+      "assignment_id",
+      "condition",
+      "rate",
+      "replicate",
+      "G",
+      "T",
+      "Q",
+      "signed_group_distortion_sd",
+      "group_contrast",
+      "group_contrast_sd",
+      "mean_score_drift",
+      "spearman",
+      "rank_movement_median",
+      "rank_movement_p90",
+      "fraction_moving_more_than_5_percentiles",
+      "selected_lost_count",
+      "selected_gained_count",
+      "loss_in_cutoff_band_per_k",
+      "loss_outside_cutoff_band_per_k",
+      "loss_conditional_selected_outside_band",
+      "far_loss_count_0.01",
+      "far_loss_per_k_0.01",
+      "far_loss_count_0.025",
+      "far_loss_per_k_0.025",
+      "far_loss_count_0.05",
+      "far_loss_per_k_0.05",
+      "far_loss_count_0.1",
+      "far_loss_per_k_0.1",
+      "PLOSCB_lost_count",
+      "PLOSCB_lost_per_k",
+      "PLOSCB_gained_count",
+      "PLOSCB_gained_per_k",
+      "PLOSGEN_lost_count",
+      "PLOSGEN_lost_per_k",
+      "PLOSGEN_gained_count",
+      "PLOSGEN_gained_per_k",
+      "top_0.05_replacement",
+      "top_0.2_replacement"
+    ],
+    "columns": [
+      {
+        "name": "assignment_id",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "replicate",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "G",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "T",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "Q",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "signed_group_distortion_sd",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "group_contrast",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "group_contrast_sd",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_score_drift",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "spearman",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rank_movement_median",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rank_movement_p90",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "fraction_moving_more_than_5_percentiles",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "selected_lost_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "selected_gained_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "loss_in_cutoff_band_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "loss_outside_cutoff_band_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "loss_conditional_selected_outside_band",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_count_0.01",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_per_k_0.01",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_count_0.025",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_per_k_0.025",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_count_0.05",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_per_k_0.05",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_count_0.1",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "far_loss_per_k_0.1",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "PLOSCB_lost_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "PLOSCB_lost_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "PLOSCB_gained_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "PLOSCB_gained_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "PLOSGEN_lost_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "PLOSGEN_lost_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "PLOSGEN_gained_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "PLOSGEN_gained_per_k",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "top_0.05_replacement",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "top_0.2_replacement",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_biomedical/paper_selection_probabilities.csv": {
+    "record_count": 8826,
+    "field_order": [
+      "record_id",
+      "source",
+      "rate",
+      "condition",
+      "baseline_selected",
+      "signed_margin_sd",
+      "in_cutoff_band",
+      "selected_probability",
+      "n_masks"
+    ],
+    "columns": [
+      {
+        "name": "record_id",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "signed_margin_sd",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "in_cutoff_band",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "selected_probability",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_biomedical/table1_cohort_construction.csv": {
+    "record_count": 8,
+    "field_order": [
+      "cohort",
+      "year",
+      "source",
+      "n",
+      "availability",
+      "baseline_top_decile_k"
+    ],
+    "columns": [
+      {
+        "name": "cohort",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "year",
+        "type": "integer-or-ALL",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "availability",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_top_decile_k",
+        "type": "integer",
+        "missing_count": 6,
+        "nullable": true,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_biomedical/table2_aggregate.csv": {
+    "record_count": 120,
+    "field_order": [
+      "rate",
+      "condition",
+      "policy",
+      "metric",
+      "n_masks",
+      "n_undefined",
+      "mean",
+      "median",
+      "sd_over_masks",
+      "mcse",
+      "p05",
+      "p95",
+      "ci_low_raw",
+      "ci_high_raw",
+      "interval"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "policy",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "metric",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_undefined",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "median",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "sd_over_masks",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mcse",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p05",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p95",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_low_raw",
+        "type": "float",
+        "missing_count": 116,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_high_raw",
+        "type": "float",
+        "missing_count": 116,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "interval",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_biomedical/table3_rank_selection.csv": {
+    "record_count": 696,
+    "field_order": [
+      "rate",
+      "condition",
+      "policy",
+      "metric",
+      "n_masks",
+      "n_undefined",
+      "mean",
+      "median",
+      "sd_over_masks",
+      "mcse",
+      "p05",
+      "p95",
+      "ci_low_raw",
+      "ci_high_raw",
+      "interval"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "policy",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "metric",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_undefined",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "median",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "sd_over_masks",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mcse",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p05",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p95",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_low_raw",
+        "type": "float",
+        "missing_count": 688,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_high_raw",
+        "type": "float",
+        "missing_count": 688,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "interval",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_biomedical/table4_paired_primary.csv": {
+    "record_count": 6,
+    "field_order": [
+      "rate",
+      "mechanism",
+      "metric",
+      "contrast",
+      "matching",
+      "n_masks",
+      "n_undefined",
+      "mean",
+      "median",
+      "sd_over_masks",
+      "mcse",
+      "p05",
+      "p95",
+      "ci_low_raw",
+      "ci_high_raw",
+      "interval"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mechanism",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "metric",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "contrast",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "matching",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_undefined",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "median",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "sd_over_masks",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mcse",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p05",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p95",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_low_raw",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_high_raw",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "interval",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/original_biomedical/threshold_sensitivity.csv": {
+    "record_count": 108,
+    "field_order": [
+      "rate",
+      "condition",
+      "tau_G",
+      "tau_T",
+      "tau_Q",
+      "aggregate",
+      "selection",
+      "ranks",
+      "joint_mean_rule",
+      "joint_with_rank_rule"
+    ],
+    "columns": [
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "tau_G",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "tau_T",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "tau_Q",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "aggregate",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "selection",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ranks",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "joint_mean_rule",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "joint_with_rank_rule",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/post_confirmation/bootstrap/interval_sensitivity.csv": {
+    "record_count": 63,
+    "field_order": [
+      "study",
+      "rate",
+      "mechanism",
+      "role",
+      "metric",
+      "family_size",
+      "n_masks",
+      "B",
+      "mean",
+      "mcse",
+      "student_low",
+      "student_high",
+      "bootstrap_low",
+      "bootstrap_high",
+      "student_classification",
+      "bootstrap_classification",
+      "classification_concordant",
+      "tail_probability",
+      "expected_resamples_per_tail",
+      "t_quantile_low",
+      "t_quantile_high",
+      "t_quantile_low_first_half",
+      "t_quantile_low_second_half",
+      "t_quantile_high_first_half",
+      "t_quantile_high_second_half",
+      "lower_endpoint_mc_min",
+      "lower_endpoint_mc_max",
+      "upper_endpoint_mc_min",
+      "upper_endpoint_mc_max",
+      "classification_stable_in_approx_mc_band",
+      "lower_quantile_mc_rank_low",
+      "lower_quantile_mc_rank_high",
+      "upper_quantile_mc_rank_low",
+      "upper_quantile_mc_rank_high"
+    ],
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mechanism",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "metric",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "family_size",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "B",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mcse",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "student_low",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "student_high",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "bootstrap_low",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "bootstrap_high",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "student_classification",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "bootstrap_classification",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "classification_concordant",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "tail_probability",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "expected_resamples_per_tail",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "t_quantile_low",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "t_quantile_high",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "t_quantile_low_first_half",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "t_quantile_low_second_half",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "t_quantile_high_first_half",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "t_quantile_high_second_half",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "lower_endpoint_mc_min",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "lower_endpoint_mc_max",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "upper_endpoint_mc_min",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "upper_endpoint_mc_max",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "classification_stable_in_approx_mc_band",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "lower_quantile_mc_rank_low",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "lower_quantile_mc_rank_high",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "upper_quantile_mc_rank_low",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "upper_quantile_mc_rank_high",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/post_confirmation/bootstrap/joint_sensitivity.csv": {
+    "record_count": 13,
+    "field_order": [
+      "study",
+      "rate",
+      "mechanism",
+      "student_joint",
+      "bootstrap_joint",
+      "concordant",
+      "mc_classification_stable"
+    ],
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mechanism",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "student_joint",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "bootstrap_joint",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "concordant",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mc_classification_stable",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/post_confirmation/openalex/coverage.csv": {
+    "record_count": 14,
+    "field_order": [
+      "collection",
+      "source",
+      "year",
+      "total",
+      "valid_present",
+      "explicit_null",
+      "unmatched",
+      "empty_or_malformed",
+      "field_omitted_unknown",
+      "ambiguous_duplicate",
+      "uniquely_matched",
+      "known_field_states",
+      "null_percent_known",
+      "full_frame_null_mask_gate"
+    ],
+    "columns": [
+      {
+        "name": "collection",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "year",
+        "type": "integer-or-ALL",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "total",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "valid_present",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "explicit_null",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "unmatched",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "empty_or_malformed",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "field_omitted_unknown",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ambiguous_duplicate",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "uniquely_matched",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "known_field_states",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "null_percent_known",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "full_frame_null_mask_gate",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/post_confirmation/openalex/field_states.csv": {
+    "record_count": 7190,
+    "field_order": [
+      "collection",
+      "record_id",
+      "doi",
+      "source",
+      "year",
+      "state",
+      "openalex_id",
+      "provider_year",
+      "retrieved_utc"
+    ],
+    "columns": [
+      {
+        "name": "collection",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "record_id",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "doi",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "year",
+        "type": "integer-or-ALL",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "state",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "openalex_id",
+        "type": "string",
+        "missing_count": 14,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "provider_year",
+        "type": "integer",
+        "missing_count": 14,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "retrieved_utc",
+        "type": "string",
+        "missing_count": 14,
+        "nullable": true,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/post_confirmation/specter2/baseline_reference_comparison.csv": {
+    "record_count": 4,
+    "field_order": [
+      "study",
+      "encoder",
+      "pop_sd",
+      "source_contrast_raw",
+      "source_contrast_sd",
+      "cutoff_raw",
+      "cutoff_gap_sd"
+    ],
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "encoder",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "pop_sd",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_contrast_raw",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_contrast_sd",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "cutoff_raw",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "cutoff_gap_sd",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/post_confirmation/specter2/encoder_reference_comparison.csv": {
+    "record_count": 24,
+    "field_order": [
+      "encoder",
+      "study",
+      "mechanism",
+      "role",
+      "rate",
+      "metric",
+      "n",
+      "mean",
+      "ci_low",
+      "ci_high",
+      "family_size",
+      "classification",
+      "expected_lost_papers"
+    ],
+    "columns": [
+      {
+        "name": "encoder",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "study",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mechanism",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "metric",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_low",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_high",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "family_size",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "classification",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "expected_lost_papers",
+        "type": "float",
+        "missing_count": 18,
+        "nullable": true,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/post_confirmation/specter2/primary_and_paired.csv": {
+    "record_count": 12,
+    "field_order": [
+      "study",
+      "mechanism",
+      "role",
+      "rate",
+      "metric",
+      "n",
+      "mean",
+      "sd",
+      "mcse",
+      "ci_low",
+      "ci_high",
+      "p05",
+      "median",
+      "p95",
+      "classification",
+      "expected_lost_papers"
+    ],
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mechanism",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "metric",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "n",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "sd",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mcse",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_low",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ci_high",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p05",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "median",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "p95",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "classification",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "expected_lost_papers",
+        "type": "float",
+        "missing_count": 9,
+        "nullable": true,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/identifiers/acl_cohort_identifiers.csv": {
+    "record_count": 5356,
+    "field_order": [
+      "record_id",
+      "doi",
+      "year",
+      "source",
+      "cohort",
+      "topic_bucket"
+    ],
+    "columns": [
+      {
+        "name": "record_id",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "doi",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "year",
+        "type": "integer-or-ALL",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "cohort",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "topic_bucket",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/identifiers/biomedical_cohort_identifiers.csv": {
+    "record_count": 4862,
+    "field_order": [
+      "record_id",
+      "doi",
+      "year",
+      "source",
+      "cohort",
+      "topic_bucket"
+    ],
+    "columns": [
+      {
+        "name": "record_id",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "doi",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "year",
+        "type": "integer-or-ALL",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "cohort",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "topic_bucket",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "manifests/original_to_release.csv": {
+    "record_count": 85,
+    "field_order": [
+      "release_path",
+      "original_project_relative_path",
+      "original_sha256",
+      "release_sha256",
+      "role",
+      "transformation",
+      "functions_ast_identical"
+    ],
+    "columns": [
+      {
+        "name": "release_path",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "original_project_relative_path",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "original_sha256",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "release_sha256",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "transformation",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "functions_ast_identical",
+        "type": "boolean",
+        "missing_count": 76,
+        "nullable": true,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "docs/csv_dictionary.csv": {
+    "record_count": 455,
+    "field_order": [
+      "file",
+      "column",
+      "type",
+      "meaning",
+      "units",
+      "denominator_or_inference",
+      "mechanism_rate_replicate",
+      "missingness"
+    ],
+    "columns": [
+      {
+        "name": "file",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "column",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "meaning",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "units",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "denominator_or_inference",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "mechanism_rate_replicate",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "missingness",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "docs/results_map.csv": {
+    "record_count": 15,
+    "field_order": [
+      "display",
+      "input",
+      "row_selector",
+      "reproduction_command",
+      "scope"
+    ],
+    "columns": [
+      {
+        "name": "display",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "input",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "row_selector",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "reproduction_command",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "scope",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/cutoff_verification/baseline_membership.csv": {
+    "record_count": 6056,
+    "field_order": [
+      "study",
+      "encoder",
+      "paper_id",
+      "score",
+      "descending_ordinal",
+      "selected",
+      "in_band",
+      "outside_selected",
+      "margin_sd",
+      "C_0.01",
+      "C_0.025",
+      "C_0.05",
+      "C_0.1"
+    ],
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "encoder",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "paper_id",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "score",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "descending_ordinal",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "selected",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "in_band",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "outside_selected",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "margin_sd",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "C_0.01",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "C_0.025",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "C_0.05",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "C_0.1",
+        "type": "boolean",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/cutoff_verification/cutoff_set_check.csv": {
+    "record_count": 20016,
+    "field_order": [
+      "level",
+      "study",
+      "encoder",
+      "assignment_id",
+      "role",
+      "mechanism",
+      "rate",
+      "delta",
+      "O_count",
+      "C_count",
+      "O_minus_C",
+      "C_minus_O",
+      "relation",
+      "O_minus_C_ids",
+      "C_minus_O_ids"
+    ],
+    "columns": [
+      {
+        "name": "level",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "study",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "encoder",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "assignment_id",
+        "type": "string",
+        "missing_count": 16,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "missing_count": 16,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "mechanism",
+        "type": "string",
+        "missing_count": 16,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "missing_count": 16,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "delta",
+        "type": "float",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "O_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "C_count",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "O_minus_C",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "C_minus_O",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "relation",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "O_minus_C_ids",
+        "type": "json-string-array",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "C_minus_O_ids",
+        "type": "json-string-array",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "manifests/license_scope.csv": {
+    "record_count": 116,
+    "field_order": [
+      "path",
+      "license",
+      "previous_candidate_version",
+      "previous_candidate_sha256",
+      "origin",
+      "origin_sha256",
+      "rights_scope",
+      "ownership_evidence",
+      "license_applied_utc",
+      "copyright_holder",
+      "copyright_year"
+    ],
+    "columns": [
+      {
+        "name": "path",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "license",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "previous_candidate_version",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "previous_candidate_sha256",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "origin",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "origin_sha256",
+        "type": "string",
+        "missing_count": 25,
+        "nullable": true,
+        "allow_infinity": false
+      },
+      {
+        "name": "rights_scope",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "ownership_evidence",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "license_applied_utc",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "copyright_holder",
+        "type": "string",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      },
+      {
+        "name": "copyright_year",
+        "type": "integer",
+        "missing_count": 0,
+        "nullable": false,
+        "allow_infinity": false
+      }
+    ]
+  }
+}

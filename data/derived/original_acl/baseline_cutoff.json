@@ -1,0 +1,22 @@
+{
+  "band_rule": "Descending ordinal percentile (r-0.5)/n, r=1..n; inclusive [0.09,0.11], expanded exact ties at both edges",
+  "baseline_group_contrast": -0.003642162456676118,
+  "baseline_group_contrast_sd": -0.13070072669124716,
+  "baseline_population_sd": 0.027866428510990277,
+  "baseline_selected_in_band": 16,
+  "baseline_selected_outside_band": 140,
+  "far_loss_denominator": 156,
+  "gap": 2.4974346160888672e-05,
+  "gap_baseline_sd": 0.0008962162535840934,
+  "k": 156,
+  "kth_score": 0.13783472776412964,
+  "midpoint": 0.1378222405910492,
+  "n": 1557,
+  "next_score": 0.13780975341796875,
+  "rank_band_index_high": 170,
+  "rank_band_index_low": 140,
+  "rank_band_size": 31,
+  "rank_normalization_denominator": 1556,
+  "tied_block_selected": 0,
+  "tied_block_size": 0
+}

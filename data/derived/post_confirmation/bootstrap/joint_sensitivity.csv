@@ -1,0 +1,14 @@
+study,rate,mechanism,student_joint,bootstrap_joint,concordant,mc_classification_stable
+ACL,0.1,random,True,True,True,True
+ACL,0.1,source,True,True,True,True
+ACL,0.1,topic,False,False,True,True
+ACL,0.25,random,True,True,True,True
+ACL,0.25,source,True,True,True,True
+ACL,0.25,topic,True,True,True,True
+ACL,0.5,random,True,True,True,True
+ACL,0.5,source,True,True,True,True
+ACL,0.5,topic,True,True,True,True
+Biomedical,0.25,random,True,True,True,True
+Biomedical,0.25,source,False,False,True,True
+Biomedical,0.5,random,True,True,True,True
+Biomedical,0.5,source,False,False,True,True

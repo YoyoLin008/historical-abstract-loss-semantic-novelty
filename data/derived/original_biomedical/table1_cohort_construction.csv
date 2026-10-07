@@ -1,0 +1,9 @@
+cohort,year,source,n,availability,baseline_top_decile_k
+history,2018,PLOSCB,528,complete title/abstract by frozen audit,
+history,2018,PLOSGEN,536,complete title/abstract by frozen audit,
+history,2019,PLOSCB,620,complete title/abstract by frozen audit,
+history,2019,PLOSGEN,496,complete title/abstract by frozen audit,
+history,2020,PLOSCB,706,complete title/abstract by frozen audit,
+history,2020,PLOSGEN,505,complete title/abstract by frozen audit,
+focal,2021,PLOSCB,934,complete title/abstract by frozen audit,148
+focal,2021,PLOSGEN,537,complete title/abstract by frozen audit,148

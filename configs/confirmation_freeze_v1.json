@@ -1,0 +1,57 @@
+{
+  "analysis_code_sha256": {
+    "analysis/confirmatory_readout.py": "2909ccc72d35d830b99de34f32db1fe995c12748f5e82968b8c3dff5895b39aa"
+  },
+  "artifact_paths": {
+    "cohort_manifest": "data/confirmation_v1/cohort_manifest.json",
+    "config": "configs/confirmation_v1.json",
+    "encoding_manifest": "data/confirmation_v1/embeddings/encoding_manifest.json",
+    "full": "data/confirmation_v1/embeddings/full.npy",
+    "protocol": "docs/confirmatory_protocol_v1.md",
+    "records": "data/confirmation_v1/records.jsonl",
+    "requirements_lock": "requirements.lock",
+    "seeds": "configs/confirmation_seeds_v1.json",
+    "title": "data/confirmation_v1/embeddings/title.npy"
+  },
+  "cohort": {
+    "focal_count": 1557,
+    "focal_year": 2021,
+    "history_count": 3799,
+    "history_years": [
+      2018,
+      2019,
+      2020
+    ],
+    "selection_k": 156
+  },
+  "frozen_utc": "2026-10-04T20:19:05.095179+00:00",
+  "git_commit": "99bb737298ba68ede5a7ea2ac6cd8bdcbf79875b",
+  "note": "Local prospective protocol after exploratory pilot; not externally preregistered. All scoring and analysis choices in preceding actual commit. No real outcome scoring before this manifest.",
+  "originality_gate": "PASS WITH NARROWER CLAIM",
+  "outcome_inspection_before_freeze": false,
+  "protocol_version": "v1",
+  "sha256": {
+    "cohort_manifest": "5ac866f416c3aa91db776bd7223495636480d16b882a0a79967d26eedab2a42b",
+    "config": "67c29e73be60844f6f2e2c2764c2d758f8a29e916d22df24a32674f504cc1b90",
+    "encoding_manifest": "188d09c8132f623506798b5b94ca44427455d53cac765b20fd1f0cc5872c5535",
+    "full": "401b0baab5bb7f09499bf9b96294cc79e14986ed36e3f2473b4566afef57c050",
+    "protocol": "166adb8fe21b9900a4fe4b6082d0836ce36de3cb4c1d5d07be02df11f32f7858",
+    "records": "250cdbf79417632bd74c765e536a57afe5ee7e9c4366cf48282a37f171486034",
+    "requirements_lock": "9f5e3a0fd8abdb1388f64781a53a58cf927bbe90fa718bba715d7b791dfcc3a3",
+    "seeds": "e67d1db21252f0f98fbe2921ff440929dd50799069d841af03ef136904264c3e",
+    "title": "d8f77fff2e8e3920b7505c17bd3a64e326aaf83e6c590d6e3ea642bb9131d8b3"
+  },
+  "source_code_sha256": {
+    "acquire.py": "d784f5bcc7d77ec94eb00030a9e040a3646eacd2e80cd3b8a0daf42d5c3c1087",
+    "acquire_confirmation.py": "fea55b6f8aecbabb102ae5c1ffda8c26188cad6f347388ca30692cf84bf5cc93",
+    "confirm.py": "679ae627d057f0c84deff8732676b72e2b0c836b7d6b39fb7ae170eeba3d05aa",
+    "encode.py": "cb91526e413e11d6851098c55b1154fda619ca6eeb774b6575e65205ef8d2278",
+    "encode_v2.py": "6d3d10cf23d8578794b68cdf9eaf77f091ca587ce629794b418e8e2c04064a29",
+    "masks.py": "85c8e1c75a45fe0f07c10f602bd845c42247ee1b3157d2f88ba446a75dcd802f",
+    "measure.py": "bd1bb3e79ede7c5c1d0b7a385f0ba9afe971a739b9ca9a9261c880da8770c017",
+    "pilot.py": "6e45316f0ee47ff3601e37f0ff71ecb0bd4edb57103783b94aa067fdf8f3f2f9"
+  },
+  "stage": "confirmation_v1",
+  "status": "frozen",
+  "units": "independent complete masks; structured-control pairs kept together"
+}

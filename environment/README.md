@@ -1,0 +1,5 @@
+# Environments
+
+The original lock `../requirements.lock` records Python scientific dependencies for SPECTER. The post-confirmation encoder logical lock retains SPECTER2's adapters 1.3.0 and transformers 4.57.6 separately; it records the measured overlay run and is not a verified fresh installation. Reporting uses Python 3.12.14, NumPy 2.3.5, matplotlib 3.10.7 and mpmath 1.3.0. The supplied reporting lock pins direct packages; pip resolves platform-specific transitive distributions. A fresh environment installation was not performed during packaging. The clean-directory reporting test used those exact installed package versions with an isolated interpreter, disabled user site and no original project module/data path.
+
+Suggested setup (not an executed installation receipt): `python3.12 -m venv .venv-reporting`, then `.venv-reporting/bin/python -m pip install -r environment/requirements_reporting.lock`. Activate that interpreter before the documented commands. Full acquisition/encoding uses independent rights-reviewed source text, network and model downloads; these are not triggered by reporting tests.

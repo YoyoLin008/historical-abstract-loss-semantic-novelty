@@ -1,0 +1,113 @@
+{
+  "scope": "Original ID-level saved-score verification; source text/model/embeddings omitted",
+  "baseline_sets": {
+    "ACL SPECTER": {
+      "0.01": {
+        "C_count": 154,
+        "O_minus_C": 0,
+        "C_minus_O": 14,
+        "relation": "O_subset_C"
+      },
+      "0.025": {
+        "C_count": 150,
+        "O_minus_C": 0,
+        "C_minus_O": 10,
+        "relation": "O_subset_C"
+      },
+      "0.05": {
+        "C_count": 145,
+        "O_minus_C": 0,
+        "C_minus_O": 5,
+        "relation": "O_subset_C"
+      },
+      "0.1": {
+        "C_count": 132,
+        "O_minus_C": 8,
+        "C_minus_O": 0,
+        "relation": "C_subset_O"
+      }
+    },
+    "Biomedical SPECTER": {
+      "0.01": {
+        "C_count": 145,
+        "O_minus_C": 0,
+        "C_minus_O": 13,
+        "relation": "O_subset_C"
+      },
+      "0.025": {
+        "C_count": 144,
+        "O_minus_C": 0,
+        "C_minus_O": 12,
+        "relation": "O_subset_C"
+      },
+      "0.05": {
+        "C_count": 142,
+        "O_minus_C": 0,
+        "C_minus_O": 10,
+        "relation": "O_subset_C"
+      },
+      "0.1": {
+        "C_count": 133,
+        "O_minus_C": 0,
+        "C_minus_O": 1,
+        "relation": "O_subset_C"
+      }
+    },
+    "ACL SPECTER2": {
+      "0.01": {
+        "C_count": 155,
+        "O_minus_C": 0,
+        "C_minus_O": 15,
+        "relation": "O_subset_C"
+      },
+      "0.025": {
+        "C_count": 150,
+        "O_minus_C": 0,
+        "C_minus_O": 10,
+        "relation": "O_subset_C"
+      },
+      "0.05": {
+        "C_count": 144,
+        "O_minus_C": 0,
+        "C_minus_O": 4,
+        "relation": "O_subset_C"
+      },
+      "0.1": {
+        "C_count": 134,
+        "O_minus_C": 6,
+        "C_minus_O": 0,
+        "relation": "C_subset_O"
+      }
+    },
+    "Biomedical SPECTER2": {
+      "0.01": {
+        "C_count": 143,
+        "O_minus_C": 0,
+        "C_minus_O": 11,
+        "relation": "O_subset_C"
+      },
+      "0.025": {
+        "C_count": 140,
+        "O_minus_C": 0,
+        "C_minus_O": 8,
+        "relation": "O_subset_C"
+      },
+      "0.05": {
+        "C_count": 136,
+        "O_minus_C": 0,
+        "C_minus_O": 4,
+        "relation": "O_subset_C"
+      },
+      "0.1": {
+        "C_count": 121,
+        "O_minus_C": 11,
+        "C_minus_O": 0,
+        "relation": "C_subset_O"
+      }
+    }
+  },
+  "baseline_comparisons": 16,
+  "mask_comparisons": 20000,
+  "mask_vectors": 5000,
+  "scientific_results_changed": false
+}

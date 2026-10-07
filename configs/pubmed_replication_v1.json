@@ -1,0 +1,18 @@
+{
+  "stage": "pubmed_replication_v1",
+  "focal_selection": "all_eligible",
+  "history_years": [2018, 2019, 2020],
+  "focal_years": [2021],
+  "sources": ["PLOSCB", "PLOSGEN"],
+  "source_contrast": ["PLOSCB", "PLOSGEN"],
+  "rates": [0.25, 0.5],
+  "masks_per_condition": 200,
+  "mask_preferred_source": "PLOSCB",
+  "structured_weight": 8.0,
+  "top_k": 20,
+  "block_size": 128,
+  "control_matching": {"source": ["year"]},
+  "thresholds": {"G": 0.1, "T": 0.05, "Q": 0.01},
+  "inference": {"family_size": 18, "family_alpha": 0.05, "t_critical": 3.029133739375753},
+  "prior_results_role": "ACL exploratory and confirmation results motivate this prospective external replication; no pooled inference"
+}

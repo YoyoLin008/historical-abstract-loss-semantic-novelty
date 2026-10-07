@@ -1,0 +1,7 @@
+{
+  "acquisition_manifest_sha256": "4226604992d10a03a47c97ecdd5bbc54b5fd485ca95dea468b16c907917aa3b3",
+  "cohort_manifest_sha256": "ac335a05e2db5de09b161b5780ec1dcaa30a9d7f5aed1097b8babe5b6a8ccbb0",
+  "date_definition": "PubMed ArticleDate DateType=Electronic, unique valid Gregorian full date; year must agree with PLOS publication_date; no fallback",
+  "duplicate_count_scope": "Entire 2018-2021 acquisition frame; not a source-year count",
+  "new_duplicate_exclusion_ledger_entries_entire_frame": 0
+}

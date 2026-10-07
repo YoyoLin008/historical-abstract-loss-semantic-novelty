@@ -1,0 +1,23 @@
+{
+  "title": "Historical abstract loss and use-dependent robustness of semantic novelty indicators: reproducibility materials",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Lin, Yunya",
+      "affiliation": "School of Information Sciences, University of Illinois Urbana-Champaign, Champaign, IL, USA"
+    }
+  ],
+  "description": "Mixed scoped licensing: original Python research/release code and tests are licensed under the MIT License. Original non-text numerical outputs, identifier projections, configurations/provenance and release documentation are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). The archived root LICENSE specifies the exact file scopes and exclusions. These are separate grants for different materials, not a choice of either license for every file. Source text, model weights, embedding arrays and third-party materials are not relicensed by these grants.\n\nReproducibility materials for controlled historical abstract-loss experiments and separately labelled post-confirmation checks. Includes original numerical outputs, configurations, seeds, scientific code and portable reporting scripts. The archive supports reporting-level reconstruction and cutoff-membership verification. Public cached-score and full raw-to-encoder reproduction are incomplete because original source text, embedding arrays and caches are omitted. Pilot and calibration failures, collection-specific effects and representation-dependent findings remain documented. These materials do not include the private article or its editable source.",
+  "access_right": "open",
+  "license": "other-open",
+  "language": "eng",
+  "keywords": [
+    "scientometrics",
+    "semantic novelty",
+    "abstract missingness",
+    "reproducibility",
+    "measurement robustness"
+  ],
+  "notes": "The generic Other (Open) record label summarizes the mixed open licenses. Consult the archived LICENSE and individual license texts for exact scope; it is not a blanket MIT or CC BY 4.0 grant. Substantial AI assistance is disclosed in the release documentation. The human author remains accountable for the work."
+}

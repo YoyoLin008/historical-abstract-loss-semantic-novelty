@@ -1,0 +1,27 @@
+{
+  "status": "release projection of completed original analysis manifest",
+  "family_size": 45,
+  "output_sha256": {
+    "baseline_cutoff.json": "b5934f1fff6678e65967236f74dddbdc569e9e0494b3af76425b2cc1945d440f",
+    "control_cell_counts.csv": "9e530f53fd9d56b932bff91e8a394bbdc0efd65372a5a3aa09c8cb2ec36c89dd",
+    "cutoff_margin_bins.csv": "9455bc2e62ea3cfc1fad5096296013c14479ae67db007ff0449336669cf3f1fa",
+    "figure1_aggregate.pdf": "08cab2ff960b10c8a05d45e1b66c1a924749cac8c3960b440fde348842bf381f",
+    "figure1_aggregate.png": "429706f8fb18ef52c4e1b886d04d280d30bfd880232e5dd5c9520ebd900e16c1",
+    "figure2_selection.pdf": "14caa9302e360487f2376544b3e8e2b5c778978924a68bd359f6bea29144723f",
+    "figure2_selection.png": "e30419a25593f0f0131299d6f5d5254a780bfdffe590c2502a5374b289edb8ff",
+    "figure3_joint.pdf": "4833e2090e92f280674e9d55674c469641f533b84a25542b403cbef2fbe3d5fd",
+    "figure3_joint.png": "a9b967ec92fe80ac02d7cd8a1d7ddf3f02516f7c34e77fd12c2c4d578e256a0a",
+    "figure4_cutoff_margins.pdf": "d17bece5128b612954fc2fe2779ea076ae1a86f53f157928d6163eff20e2193b",
+    "figure4_cutoff_margins.png": "6e1a4c9dcf204667be18256418a9d3aa519cf74771e8857a87ba70652e829809",
+    "joint_classification.csv": "5c6f6515051c75a7ace2cf812e4da9867bdd320231b4815c1339b75bbd857e7a",
+    "mask_primary_and_movement.csv": "6c3a3d59cd8f28077b74d528c69a76653c46b1cbc2e67134e351ab18a38eaf14",
+    "paper_selection_probabilities.csv": "2f011a3be9c7187370d23d39df2f007d6063ad6f867271a165af60cf00b51743",
+    "table1_cohort_construction.csv": "d81bc95928f193bfbd13583ba0022a517c0fb0144e40f1072fce650e70ce4eb8",
+    "table2_aggregate.csv": "a5028b979dd7fa8c00c7f2ceb3b352c62b43db8dcabd0961300b379c564c3f2e",
+    "table3_rank_selection.csv": "8d2df6bf1c93d20bcd8d99eea094d5b6ea1e5a29987202e8136eb47cc5b68c25",
+    "table4_paired_primary.csv": "21640180ab36a564388fd4fdbf813c573b4ddae5cc1816b67e732253cf8b21f4",
+    "threshold_sensitivity.csv": "2ea12db58cbfe8263ecc646d1a776a5fc6ffa8834eb63819b415ecba589a1300"
+  },
+  "original_manifest_sha256": "6425a73eae4363298d414df45f1a51d643f6703fc49b816207310330764a67d6",
+  "scope": "Output bindings needed by reporting scripts; does not replace the original scientific freeze."
+}

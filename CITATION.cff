@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite these reproducibility materials, version 1.0.0. The Zenodo DOI is obtained after integration and verified separately."
+type: software
+title: "Historical abstract loss and use-dependent robustness of semantic novelty indicators: reproducibility materials"
+authors:
+  - family-names: Lin
+    given-names: Yunya
+version: 1.0.0
+abstract: "Controlled historical abstract-loss experiments and separately labelled post-confirmation checks. Includes original numerical outputs, configurations, seeds, scientific code and portable reporting scripts. Per-file scope: MIT for original Python code/tests; CC BY 4.0 for own non-text data/configuration/provenance/documentation, as defined by LICENSE and manifests/license_scope.csv. These are not alternative licenses for the same files. The materials contain no source text, embedding arrays or model weights."

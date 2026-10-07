@@ -1,0 +1,5 @@
+rate,condition,aggregate,selection,ranks,joint_mean_rule,joint_with_rank_rule,descriptive_joint_masks,n_masks,descriptive_joint_fraction,wilson95_low,wilson95_high,wilson_scope
+0.25,random,below_tolerance,above_tolerance,above_tolerance,True,True,200,200,1.0,0.9811546736227335,1.0,pointwise descriptive; outside 18-mean family
+0.25,source,above_tolerance,above_tolerance,above_tolerance,False,False,0,200,0.0,1.734723475976807e-18,0.018845326377266575,pointwise descriptive; outside 18-mean family
+0.5,random,below_tolerance,above_tolerance,above_tolerance,True,True,200,200,1.0,0.9811546736227335,1.0,pointwise descriptive; outside 18-mean family
+0.5,source,above_tolerance,above_tolerance,above_tolerance,False,False,0,200,0.0,1.734723475976807e-18,0.018845326377266575,pointwise descriptive; outside 18-mean family

@@ -1,0 +1,26 @@
+{
+  "status": "release projection of completed original analysis manifest",
+  "family_size": 18,
+  "output_sha256": {
+    "baseline_cutoff.json": "828a237225d69fcabbd09f5f08d96cd325c8eb635e5c62f2e6ae33a11431f769",
+    "cohort_construction_metadata.json": "391a1159734cf158aff71366f6cdb4fc29589c392d42a8f9765b5ab9a29de4b0",
+    "control_cell_counts.csv": "e4bcc22d1683dec2752563527306f9c268be23161004acf9f8f167333e5f0e5a",
+    "cutoff_margin_bins.csv": "ee82c065ec664c7c2bb5f24acffc9aab309bf92a588430004efc52b7506b9da3",
+    "figure1_primary.pdf": "c7069e58f11582481beac9f2b351d7d12e486f02ccf67cb26bf1b7fca6451130",
+    "figure1_primary.png": "73e92dd46355036ef8007f615d8efdef4d568697d5c9e777674a8d63506c1f50",
+    "figure2_joint.pdf": "d59c021ddd61aafc57a753ea3a2fdcfe326f57fd5c2d72297020c4c749e51976",
+    "figure2_joint.png": "c05f329800dfe194166ecc87d3ed3e34830b8809c2368bc5ae6c6b7192f2b859",
+    "figure3_cutoff_margins.pdf": "73d254a7aa94cda41b38638133a22c6f78b516538083eed731d802800697579f",
+    "figure3_cutoff_margins.png": "68b79c6e1888832a13f4d18a8ef9960504392ce96307fb8327cbb25ed1e0ba0e",
+    "joint_classification.csv": "63ec8851ded5a5f6ce80825f07dc1a21dff1539f8c565a34ba7bd6a6a69a571f",
+    "mask_primary_and_movement.csv": "9b2807a736a64f62bfb579c9f1e5946de5bea8f752e6e15c33c3e06ebfd323e1",
+    "paper_selection_probabilities.csv": "4f33c63c8061af16bd9de1055d0ff1fdc4fdd68ae19db6f4ca6c2058c5a2f4be",
+    "table1_cohort_construction.csv": "697c4836985fb19d1f73562d8a4e7be14948ed6154e888848ffeac1bb4c2213b",
+    "table2_aggregate.csv": "4411a3e3238afdc80e6c95a99fc7a01962975318ab1ff6cd0df33ba7fbbf4132",
+    "table3_rank_selection.csv": "e870255eba8f3a67bfade1a35562c7090503332e5e64f75cca93301f059df546",
+    "table4_paired_primary.csv": "06ba9aeb37ba27056964f20ac3b72f340db99aa481a7741e0887ebb323eb9f05",
+    "threshold_sensitivity.csv": "4df1e0e9b5ae61f115eee35f9afc62644ecf810e26d3b62a3b6714723ce708e2"
+  },
+  "original_manifest_sha256": "bc38be53f2623a1edf1428545315fb8fe37ee551f737281b90b57311178242d1",
+  "scope": "Output bindings needed by reporting scripts; does not replace the original scientific freeze."
+}

@@ -1,0 +1,53 @@
+{
+  "stage": "confirmation_v1",
+  "focal_selection": "all_eligible",
+  "history_years": [
+    2018,
+    2019,
+    2020
+  ],
+  "focal_years": [
+    2021
+  ],
+  "sources": [
+    "ACL",
+    "EMNLP"
+  ],
+  "source_contrast": [
+    "ACL",
+    "EMNLP"
+  ],
+  "rates": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "masks_per_condition": 200,
+  "mask_preferred_source": "ACL",
+  "mask_preferred_topic": 0,
+  "topic_buckets": 8,
+  "structured_weight": 8.0,
+  "top_k": 20,
+  "block_size": 128,
+  "control_matching": {
+    "source": [
+      "year"
+    ],
+    "topic": [
+      "year",
+      "source"
+    ]
+  },
+  "thresholds": {
+    "G": 0.1,
+    "T": 0.05,
+    "Q": 0.01
+  },
+  "inference": {
+    "family_size": 45,
+    "family_alpha": 0.05,
+    "t_critical": 3.3090595211511644
+  },
+  "pilot_role": "exploratory only; no pooled inference",
+  "source_snapshot": "0e1bf6e9d40de745a39a59d437ee4f12ffe6118f"
+}

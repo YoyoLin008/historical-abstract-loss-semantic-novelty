@@ -1,0 +1,9 @@
+cohort,year,source,n,availability,exclusions_new,baseline_top_decile_k
+history,2018,ACL,381,complete title/abstract by frozen audit,,
+history,2018,EMNLP,548,complete title/abstract by frozen audit,,
+history,2019,ACL,660,complete title/abstract by frozen audit,,
+history,2019,EMNLP,681,complete title/abstract by frozen audit,,
+history,2020,ACL,778,complete title/abstract by frozen audit,,
+history,2020,EMNLP,751,complete title/abstract by frozen audit,,
+focal,2021,ACL,710,complete title/abstract by frozen audit,0,156
+focal,2021,EMNLP,847,complete title/abstract by frozen audit,0,156

@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv*/
+outputs/
+external_inputs/
+external_work/
+.env
+*.npy
+*.npz
+*.bin
+*.safetensors
+.DS_Store
+
+# Live acquisitions, source texts, raw scores, caches and model inputs remain private.
+data/raw/
+data/processed/
+data/model/
+data/embeddings/
+data/confirmation_v1/
+replication/data/
+results/
+*.log
+*.pid

@@ -1,0 +1,59 @@
+{
+  "scope": "Targeted reporting-level saved-score numerical/ID verification; no encoding, new masks or inferential resampling; complete scalar baseline score lists included, full masked score vectors and source text omitted.",
+  "outputs": {
+    "baseline_membership.csv": {
+      "released_sha256": "36131bfe47a9ae92e34d55771bfebb5fd2d442c0907f1026b83dc242eec122c4",
+      "sources": [
+        {
+          "path": "results/confirmation_v1/baseline.json",
+          "sha256": "64a8d2d3a4436932c19f364705af61f18643888856db56d045ec498c07754ce0"
+        },
+        {
+          "path": "results/pubmed_replication_v1/baseline.json",
+          "sha256": "6578d5b19e7b932745dd1a48dcfe0a7553a4ca5e1fac4a198f2fd22d319e0ea5"
+        },
+        {
+          "path": "scientometrics_revision/analyses/encoder/encoder_sensitivity/baselines.json",
+          "sha256": "6bf4c3478a1a30c8e390aae5654015d92bf34856a96f64aae977e6c90a5999b2"
+        }
+      ],
+      "transformation": "baseline scalar/ID membership projection or saved lost-ID/endpoint projection from immutable completed score files"
+    },
+    "acl_lost_ids.jsonl": {
+      "released_sha256": "1bf26576d762d6c4e3d3110d050d99e4209e23e0fade6d4e30587307be879a44",
+      "sources": [
+        {
+          "path": "results/confirmation_v1/mask_results.jsonl",
+          "sha256": "05ffd3750145383ade69644863199cae786bdea6bfa1985705593bab03061bef"
+        }
+      ],
+      "transformation": "baseline scalar/ID membership projection or saved lost-ID/endpoint projection from immutable completed score files"
+    },
+    "biomedical_lost_ids.jsonl": {
+      "released_sha256": "0112ce666ac16f66dd788e9a72ac827968eb13abef539189eb03016c5bc9a146",
+      "sources": [
+        {
+          "path": "results/pubmed_replication_v1/mask_results.jsonl",
+          "sha256": "7929642bbea44b8f3fdada12ae14876ed82c205ccc48e50618e0ca9cbd37f580"
+        }
+      ],
+      "transformation": "baseline scalar/ID membership projection or saved lost-ID/endpoint projection from immutable completed score files"
+    },
+    "specter2_lost_ids.jsonl": {
+      "released_sha256": "b1d47ed4545037c134a7e699ce7678782f3915f1a726da03625f370699b573a2",
+      "sources": [
+        {
+          "path": "scientometrics_revision/analyses/encoder/encoder_sensitivity/mask_results.jsonl",
+          "sha256": "061f76b45d2fa17607ccee2a599d15eff1b698a2bdbaf0bf22b56c2a8d4e4789"
+        }
+      ],
+      "transformation": "baseline scalar/ID membership projection or saved lost-ID/endpoint projection from immutable completed score files"
+    }
+  },
+  "verifier": {
+    "path": "scripts/verify_cutoff_membership.py",
+    "sha256": "be54df8666203eea6fc76f5f55842db39e6a2ed96e4eb37beb0734093692ce0b",
+    "adaptation": "Original new portable cutoff-verification code with added baseline-difference and endpoint denominator checks; original experiment source untouched"
+  },
+  "projection_note": "The three public lost-ID JSONLs retain the tested lean numeric/ID field projection. Later enriched private verification files add movement and far-loss fractions; those additional fields are intentionally omitted here. Original saved-score input hashes and ID memberships remain unchanged. These exports are selective projections rather than byte-copies of full scientific score files."
+}

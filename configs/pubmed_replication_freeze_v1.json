@@ -1,0 +1,46 @@
+{
+  "analysis_code_sha256": {
+    "replication/analysis.py": "9460422b8b04efcd2ee51cb3f3e9149b888bbf2f7ac455083c04036604746165"
+  },
+  "cohort": {
+    "focal_count": 1471,
+    "history_count": 3391,
+    "top_decile_k": 148
+  },
+  "frozen_utc": "2026-10-05T09:25:32.035699+00:00",
+  "git_commit": "f6273ffa91a19b584f97b8e8b39543e984ca5020",
+  "metadata_gate": "PASS, unchanged criteria; independent saved-source reconstruction",
+  "originality_gate": "PASS WITH NARROWER CLAIM",
+  "outcomes_started": false,
+  "registration_status": "local prospective freeze; not externally registered",
+  "replication_code_sha256": {
+    "replication/acquire.py": "a2b060f6259bc05ffe34cc8fbdf4d468768620eacac5a635d3d5fafcca59dc7b",
+    "replication/analysis.py": "9460422b8b04efcd2ee51cb3f3e9149b888bbf2f7ac455083c04036604746165",
+    "replication/score.py": "d26236447f8e306ba7f8c5cb2dd2d2e677b7970d79285d6bfba14a578e6aaf4d"
+  },
+  "schema_version": 1,
+  "sha256": {
+    "acquisition_manifest": "4226604992d10a03a47c97ecdd5bbc54b5fd485ca95dea468b16c907917aa3b3",
+    "cohort_manifest": "ac335a05e2db5de09b161b5780ec1dcaa30a9d7f5aed1097b8babe5b6a8ccbb0",
+    "config": "199bc862091718924130efd21c08ce8fa040f903db3e020c65b87dbce01b8c7b",
+    "encoding_manifest": "a661f121edf754c2378d0b1dc2d05500e65e46a9508c3c51022cda49198f561d",
+    "full": "a48e82f7b083ad49f73a833289ac1940ad35e8f598637c75f863d4f59a2a62a1",
+    "protocol": "835735a638295d39bea8635092006c234b3279b02e70a1c96f33e9228774c361",
+    "records": "7313fd7c643eaf601b25526d119e54098b422921b8bbab32ebd02455795fd1b9",
+    "requirements_lock": "9f5e3a0fd8abdb1388f64781a53a58cf927bbe90fa718bba715d7b791dfcc3a3",
+    "seeds": "bce1f5c2200f143bd95233820bca558b856eedc054331e86c18313c5bab2fd4f",
+    "title": "bcc760553314ac54d6ffc1b338bbabf9d1c64008e602bcc75cef33794a58f2a8"
+  },
+  "source_code_sha256": {
+    "acquire.py": "d784f5bcc7d77ec94eb00030a9e040a3646eacd2e80cd3b8a0daf42d5c3c1087",
+    "acquire_confirmation.py": "fea55b6f8aecbabb102ae5c1ffda8c26188cad6f347388ca30692cf84bf5cc93",
+    "confirm.py": "679ae627d057f0c84deff8732676b72e2b0c836b7d6b39fb7ae170eeba3d05aa",
+    "encode.py": "cb91526e413e11d6851098c55b1154fda619ca6eeb774b6575e65205ef8d2278",
+    "encode_v2.py": "6d3d10cf23d8578794b68cdf9eaf77f091ca587ce629794b418e8e2c04064a29",
+    "masks.py": "85c8e1c75a45fe0f07c10f602bd845c42247ee1b3157d2f88ba446a75dcd802f",
+    "measure.py": "bd1bb3e79ede7c5c1d0b7a385f0ba9afe971a739b9ca9a9261c880da8770c017",
+    "pilot.py": "6e45316f0ee47ff3601e37f0ff71ecb0bd4edb57103783b94aa067fdf8f3f2f9"
+  },
+  "stage": "pubmed_replication_v1",
+  "status": "frozen"
+}

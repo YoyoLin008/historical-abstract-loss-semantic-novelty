@@ -1,0 +1,31 @@
+{
+  "B": 200000,
+  "elapsed_seconds": 27.9761088329833,
+  "endpoint_discordances": [],
+  "expected_tail_counts": {
+    "ACL": 111.11111111111111,
+    "Biomedical": 277.77777777777777
+  },
+  "inference_scope": "approximate bootstrap-Bonferroni sensitivity with separate45/18families; no exact finite-sample coverage or cross-study95%guarantee",
+  "joint_discordances": [],
+  "mc_sensitive_endpoints": [
+    {
+      "bootstrap_classification": "positive",
+      "lower_endpoint_mc_max": 2.817952635180462e-05,
+      "lower_endpoint_mc_min": -2.6134555681837056e-06,
+      "mechanism": "topic",
+      "metric": "Q",
+      "rate": 0.1,
+      "role": "paired",
+      "study": "ACL",
+      "upper_endpoint_mc_max": 0.0020079460004136444,
+      "upper_endpoint_mc_min": 0.001972938930944375
+    }
+  ],
+  "monte_carlo_scope": "Finite resampling uncertainty; approximate95%binomial order-statistic bands, not scientific intervals, not familywise MC guarantees",
+  "n_joint_conditions": 13,
+  "n_means": 63,
+  "peak_rss_bytes": 160137216,
+  "scope": "post hoc studentized whole-mask bootstrap; original frozen inference unchanged",
+  "status": "complete"
+}

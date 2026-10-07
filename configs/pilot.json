@@ -1,0 +1,17 @@
+{
+  "stage": "exploratory_pilot",
+  "seed": 20261004,
+  "rates": [0.1, 0.25, 0.5],
+  "masks_per_condition": 20,
+  "history_years": [2018, 2019],
+  "focal_years": [2020],
+  "sources": ["ACL", "EMNLP"],
+  "focal_sample_size": 300,
+  "source_contrast": ["ACL", "EMNLP"],
+  "mask_preferred_source": "ACL",
+  "mask_preferred_topic": 0,
+  "topic_buckets": 8,
+  "structured_weight": 8.0,
+  "top_k": 20,
+  "block_size": 128
+}
