@@ -1,8 +1,8 @@
 # Version history
 
-## 1.1.0 — prepared 8 October 2026
+## 1.1.0 — published 8 October 2026
 
-Adds the actual rc.2 revision-stage descriptive analysis code and tests; signed drift, conditional-margin, cutoff-capacity, cross-encoder, realized-intensity and aggregate neighbor summaries; current four-main/two-supplementary figure generation; a portable formatter for the frozen mechanism tables; and updated maps/dictionaries. No original scientific results, masks, seeds, tolerance families, models or historical releases change. All additions retain their post hoc status. Complete masked per-paper scalar and neighbor records remain separately gated and excluded. New publication/license scope requires explicit author approval; no new DOI is invented.
+Adds the actual rc.2 revision-stage descriptive analysis code and tests; signed drift, conditional-margin, cutoff-capacity, cross-encoder, realized-intensity and aggregate neighbor summaries; current four-main/two-supplementary figure generation; a portable formatter for the frozen mechanism tables; and updated maps/dictionaries. No original scientific results, masks, seeds, tolerance families, models or historical releases change. All additions retain their post hoc status. All 47 optional masked-scalar/neighbor package files remain private and excluded by author decision. The author approved the exact 146-file scope and new licenses before publication. Verified version DOI: https://doi.org/10.5281/zenodo.23242635; immutable commit 9870031b3fcfe62943d15b4ad6d74404b2d9fc6e. This subsequent documentation update records the DOI and completed approval without changing the release tag or archive.
 
 ## 1.0.0 — published 7 October 2026
 

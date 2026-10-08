@@ -2,7 +2,7 @@
 
 Copyright 2026 Yunya Lin.
 
-The exact per-file assignments are in `manifests/license_scope.csv`: MIT for named original Python research/reporting/test code; CC BY 4.0 for named original derived non-text outputs, identifier projections, configurations, provenance and documentation. The candidate's new grants become operative only after the author's explicit approval for publication of this exact scope. Earlier approved grants for unchanged historical files remain intact. No blanket grant applies to arbitrary future files.
+The exact per-file assignments are in `manifests/license_scope.csv`: MIT for named original Python research/reporting/test code; CC BY 4.0 for named original derived non-text outputs, identifier projections, configurations, provenance and documentation. The author explicitly approved publication and the new scoped grants on 8 October 2026; those grants are operative for the individually mapped files. The subsequent DOI/status documentation updates are covered by the same authorized publication handoff. Earlier approved grants for unchanged historical files remain intact. No blanket grant applies to arbitrary future files.
 
 CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ ; legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en . Attribute Yunya Lin, retain notices and indicate modifications. Grants apply only to rights the author is authorized to license; they create no rights over facts or public-domain elements.
 

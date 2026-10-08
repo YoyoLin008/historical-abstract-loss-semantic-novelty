@@ -9,7 +9,7 @@ Run the eight commands in the root README in a clean checkout with Python 3.12, 
 | New core reporting | Public outcomes, probabilities and loss IDs | Seven original revision summary CSVs: signed drift, conditional margin, capacity, nesting and cross-encoder agreement/composition/context; no scoring. Derived per-mask reporting output is generated locally. |
 | Mechanism presentation | Frozen intensity/neighbor aggregate CSVs | Reformat Tables S16–S18 only; no new neighbor or intensity computation |
 | Current figures | Original means/intervals and conditional-margin summary | Four main plus two supplementary figures, using `build_submission_figures.py`; original `rebuild_figures.py` preserves old-version presentation |
-| Complete masked scalar endpoints | Omitted per-paper masked score vectors | Not publicly executable from this release. The separate locally verified package remains private pending a separate release decision. |
+| Complete masked scalar endpoints | Omitted per-paper masked score vectors | Not publicly executable from this release. The separate locally verified package remains private by the author's explicit decision; no external access procedure is established. |
 | Saved embedding/similarity scoring | Omitted original text metadata, saved masks and float32 similarity caches | Source is inspectable; complete replay not performed in this packaging pass |
 | Full acquisition-to-encoder | Independently obtained provider records and pinned models; encoder environment | Not rerun; rights, network, compute and exact numerical environment require separate work |
 

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite version 1.1.0 by its immutable GitHub release until its actual Zenodo version DOI is independently verified. The v1.0.0 DOI does not identify this update."
+message: "Please cite the verified version 1.1.0 software archive using its version-specific DOI."
 type: software
 title: "Historical abstract loss and use-dependent robustness of a semantic novelty indicator: reproducibility materials"
 authors:
@@ -9,3 +9,6 @@ authors:
 version: 1.1.0
 repository-code: "https://github.com/YoyoLin008/historical-abstract-loss-semantic-novelty"
 abstract: "Original frozen experiments and separately labelled post hoc numerical summaries, analysis and current figure/reporting code. Exact per-file MIT and CC BY 4.0 scope is in LICENSE and manifests/license_scope.csv. Complete masked scalar and neighbor records, raw text, embeddings, weights and manuscript are excluded."
+doi: "10.5281/zenodo.23242635"
+date-released: 2026-10-08
+url: "https://zenodo.org/records/23242635"

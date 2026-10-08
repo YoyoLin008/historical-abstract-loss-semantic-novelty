@@ -1,9 +1,9 @@
 {
   "document_package_version": "v1.0.0-rc.1",
-  "public_code_commit": null,
-  "public_tag": null,
-  "archive_version_doi": null,
-  "archive_concept_doi": null,
+  "public_code_commit": "9870031b3fcfe62943d15b4ad6d74404b2d9fc6e",
+  "public_tag": "v1.1.0",
+  "archive_version_doi": "10.5281/zenodo.23242635",
+  "archive_concept_doi": "10.5281/zenodo.23222367",
   "original_acl_freeze_commit": "99bb737298ba68ede5a7ea2ac6cd8bdcbf79875b",
   "original_biomedical_freeze_commit": "f6273ffa91a19b584f97b8e8b39543e984ca5020",
   "original_acl_freeze_sha256": "0f1f7e08fe71a183eefa54b1fa50d97f1a8581fbd5c95c51926bfd88bc420a35",
@@ -11,18 +11,20 @@
   "post_confirmation_label": "post hoc; not preregistration; original 45/18 families unchanged",
   "release_scope": "sanitized export; does not expose the preserved original repository history",
   "unresolved": [
-    "verified GitHub publication",
-    "verified Zenodo production version"
+    "Full fresh source-to-encoder reconstruction remains incomplete; omitted inputs are not publicly provided."
   ],
   "scientific_results_changed": false,
-  "public_release_version": "v1.0.0",
-  "public_release_state": "prepared for journal submission; actual public tag/archive verification recorded separately",
+  "public_release_version": "v1.1.0",
+  "public_release_state": "PUBLISHED_VERIFIED_146_PAYLOADS",
   "license_scope": {
-    "code": "MIT:37 mapped original Python files",
-    "own_non_text": "CC-BY-4.0:79 mapped own non-text/config/provenance/documentation files plus 4 named scope-policy/metadata files",
+    "code": "MIT:44 individually mapped Python files",
+    "own_non_text": "CC-BY-4.0:102 individually mapped non-code files",
     "mapping": "manifests/license_scope.csv",
     "new_file_policy": "docs/license_scope_policy.md",
     "applied_utc": "2026-10-07T13:41:01.297267+00:00",
-    "rights_limit": "Only author-controlled rights; no third-party/excluded material grant"
-  }
+    "rights_limit": "Only author-controlled rights; no third-party/excluded material grant",
+    "approved_new_scope_date": "2026-10-08"
+  },
+  "historical_generation_note": "Original v1.0.0-rc.1 scientific generation provenance is preserved; publication fields below are updated only after actual v1.1.0 verification.",
+  "current_document_package_version": "v1.1.0-rc.2"
 }

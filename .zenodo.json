@@ -19,5 +19,7 @@
     "reproducibility",
     "measurement robustness"
   ],
-  "notes": "The generic Other (Open) record label summarizes the mixed open licenses. Consult the archived LICENSE and individual license texts for exact scope; it is not a blanket MIT or CC BY 4.0 grant. Substantial AI assistance is disclosed in the release documentation. The human author remains accountable for the work."
+  "notes": "The generic Other (Open) record label summarizes the mixed open licenses. Consult the archived LICENSE and individual license texts for exact scope; it is not a blanket MIT or CC BY 4.0 grant. Substantial AI assistance is disclosed in the release documentation. The human author remains accountable for the work.",
+  "doi": "10.5281/zenodo.23242635",
+  "publication_date": "2026-10-08"
 }
