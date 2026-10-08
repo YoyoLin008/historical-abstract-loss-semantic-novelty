@@ -3609,7 +3609,6 @@
     ]
   },
   "docs/results_map.csv": {
-    "record_count": 15,
     "field_order": [
       "display",
       "input",
@@ -3617,40 +3616,41 @@
       "reproduction_command",
       "scope"
     ],
+    "record_count": 25,
     "columns": [
       {
         "name": "display",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "input",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "row_selector",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "reproduction_command",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "scope",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       }
     ]
@@ -3894,7 +3894,187 @@
     ]
   },
   "manifests/license_scope.csv": {
-    "record_count": 116,
+    "field_order": [
+      "path",
+      "license",
+      "authorization",
+      "origin",
+      "origin_sha256",
+      "rights_scope",
+      "copyright_holder",
+      "copyright_year"
+    ],
+    "record_count": 146,
+    "columns": [
+      {
+        "name": "path",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "license",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "authorization",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "origin",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "origin_sha256",
+        "type": "string",
+        "nullable": true,
+        "missing_count": 2,
+        "allow_infinity": false
+      },
+      {
+        "name": "rights_scope",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "copyright_holder",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "copyright_year",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "docs/revision_core_dictionary.csv": {
+    "field_order": [
+      "file",
+      "column",
+      "definition",
+      "unit",
+      "denominator",
+      "missing_value",
+      "source_and_formula",
+      "analysis_scope"
+    ],
+    "record_count": 86,
+    "columns": [
+      {
+        "name": "file",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "column",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "definition",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "unit",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "denominator",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "missing_value",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_and_formula",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "analysis_scope",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "manifests/revision_origin.csv": {
+    "field_order": [
+      "path",
+      "origin",
+      "origin_sha256",
+      "transformation"
+    ],
+    "record_count": 40,
+    "columns": [
+      {
+        "name": "path",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "origin",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "origin_sha256",
+        "type": "string",
+        "nullable": true,
+        "missing_count": 2,
+        "allow_infinity": false
+      },
+      {
+        "name": "transformation",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "manifests/history/v1.0.0_license_scope.csv": {
     "field_order": [
       "path",
       "license",
@@ -3908,82 +4088,2246 @@
       "copyright_holder",
       "copyright_year"
     ],
+    "record_count": 116,
     "columns": [
       {
         "name": "path",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "license",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "previous_candidate_version",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "previous_candidate_sha256",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "origin",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "origin_sha256",
         "type": "string",
-        "missing_count": 25,
         "nullable": true,
+        "missing_count": 25,
         "allow_infinity": false
       },
       {
         "name": "rights_scope",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "ownership_evidence",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "license_applied_utc",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "copyright_holder",
         "type": "string",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       },
       {
         "name": "copyright_year",
         "type": "integer",
-        "missing_count": 0,
         "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "manifests/history/v1.0.0_results_map.csv": {
+    "field_order": [
+      "display",
+      "input",
+      "row_selector",
+      "reproduction_command",
+      "scope"
+    ],
+    "record_count": 15,
+    "columns": [
+      {
+        "name": "display",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "input",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "row_selector",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "reproduction_command",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "scope",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/mechanism/history_strata.csv": {
+    "field_order": [
+      "study",
+      "stratum_type",
+      "stratum",
+      "N_s",
+      "preferred"
+    ],
+    "record_count": 6,
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "stratum_type",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "stratum",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "N_s",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "preferred",
+        "type": "boolean",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/mechanism/neighbor_summary.csv": {
+    "field_order": [
+      "study",
+      "condition",
+      "rate",
+      "arm_role",
+      "focal_source",
+      "n_masks",
+      "fixed_focal_denominator_defined_masks",
+      "fixed_focal_denominator_mean",
+      "fixed_focal_denominator_assignment_sd",
+      "fixed_focal_denominator_p05",
+      "fixed_focal_denominator_p95",
+      "fixed_selected_denominator_defined_masks",
+      "fixed_selected_denominator_mean",
+      "fixed_selected_denominator_assignment_sd",
+      "fixed_selected_denominator_p05",
+      "fixed_selected_denominator_p95",
+      "exposed_fraction_defined_masks",
+      "exposed_fraction_mean",
+      "exposed_fraction_assignment_sd",
+      "exposed_fraction_p05",
+      "exposed_fraction_p95",
+      "identity_switch_fraction_defined_masks",
+      "identity_switch_fraction_mean",
+      "identity_switch_fraction_assignment_sd",
+      "identity_switch_fraction_p05",
+      "identity_switch_fraction_p95",
+      "winner_title_fraction_defined_masks",
+      "winner_title_fraction_mean",
+      "winner_title_fraction_assignment_sd",
+      "winner_title_fraction_p05",
+      "winner_title_fraction_p95",
+      "score_increase_fraction_defined_masks",
+      "score_increase_fraction_mean",
+      "score_increase_fraction_assignment_sd",
+      "score_increase_fraction_p05",
+      "score_increase_fraction_p95",
+      "score_decrease_fraction_defined_masks",
+      "score_decrease_fraction_mean",
+      "score_decrease_fraction_assignment_sd",
+      "score_decrease_fraction_p05",
+      "score_decrease_fraction_p95",
+      "score_unchanged_fraction_defined_masks",
+      "score_unchanged_fraction_mean",
+      "score_unchanged_fraction_assignment_sd",
+      "score_unchanged_fraction_p05",
+      "score_unchanged_fraction_p95",
+      "mean_shift_raw_defined_masks",
+      "mean_shift_raw_mean",
+      "mean_shift_raw_assignment_sd",
+      "mean_shift_raw_p05",
+      "mean_shift_raw_p95",
+      "mean_shift_sd_defined_masks",
+      "mean_shift_sd_mean",
+      "mean_shift_sd_assignment_sd",
+      "mean_shift_sd_p05",
+      "mean_shift_sd_p95",
+      "baseline_selected_loss_fraction_defined_masks",
+      "baseline_selected_loss_fraction_mean",
+      "baseline_selected_loss_fraction_assignment_sd",
+      "baseline_selected_loss_fraction_p05",
+      "baseline_selected_loss_fraction_p95",
+      "baseline_selected_loss_count_defined_masks",
+      "baseline_selected_loss_count_mean",
+      "baseline_selected_loss_count_assignment_sd",
+      "baseline_selected_loss_count_p05",
+      "baseline_selected_loss_count_p95",
+      "baseline_tie_fraction_defined_masks",
+      "baseline_tie_fraction_mean",
+      "baseline_tie_fraction_assignment_sd",
+      "baseline_tie_fraction_p05",
+      "baseline_tie_fraction_p95",
+      "masked_tie_fraction_defined_masks",
+      "masked_tie_fraction_mean",
+      "masked_tie_fraction_assignment_sd",
+      "masked_tie_fraction_p05",
+      "masked_tie_fraction_p95",
+      "baseline_winner_same_source_fraction_defined_masks",
+      "baseline_winner_same_source_fraction_mean",
+      "baseline_winner_same_source_fraction_assignment_sd",
+      "baseline_winner_same_source_fraction_p05",
+      "baseline_winner_same_source_fraction_p95",
+      "masked_winner_same_source_fraction_defined_masks",
+      "masked_winner_same_source_fraction_mean",
+      "masked_winner_same_source_fraction_assignment_sd",
+      "masked_winner_same_source_fraction_p05",
+      "masked_winner_same_source_fraction_p95"
+    ],
+    "record_count": 24,
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "arm_role",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "focal_source",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_focal_denominator_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_focal_denominator_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_focal_denominator_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_focal_denominator_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_focal_denominator_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_selected_denominator_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_selected_denominator_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_selected_denominator_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_selected_denominator_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_selected_denominator_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "exposed_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "exposed_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "exposed_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "exposed_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "exposed_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "identity_switch_fraction_defined_masks",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "identity_switch_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "identity_switch_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "identity_switch_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "identity_switch_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "winner_title_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "winner_title_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "winner_title_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "winner_title_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "winner_title_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_increase_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_increase_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_increase_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_increase_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_increase_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_decrease_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_decrease_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_decrease_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_decrease_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_decrease_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_unchanged_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_unchanged_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_unchanged_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_unchanged_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "score_unchanged_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_shift_raw_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_shift_raw_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_shift_raw_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_shift_raw_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_shift_raw_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_shift_sd_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_shift_sd_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_shift_sd_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_shift_sd_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_shift_sd_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_loss_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_loss_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_loss_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_loss_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_loss_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_loss_count_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_loss_count_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_loss_count_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_loss_count_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_loss_count_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_tie_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_tie_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_tie_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_tie_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_tie_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_tie_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_tie_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_tie_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_tie_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_tie_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_winner_same_source_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_winner_same_source_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_winner_same_source_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_winner_same_source_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_winner_same_source_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_winner_same_source_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_winner_same_source_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_winner_same_source_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_winner_same_source_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_winner_same_source_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/mechanism/intensity_summary.csv": {
+    "field_order": [
+      "study",
+      "condition",
+      "rate",
+      "arm_role",
+      "stratum_type",
+      "stratum",
+      "N_s",
+      "n_masks",
+      "c_m_s_mean",
+      "c_m_s_assignment_sd",
+      "c_m_s_p05",
+      "c_m_s_p95",
+      "within_stratum_fraction_mean",
+      "within_stratum_fraction_assignment_sd",
+      "within_stratum_fraction_p05",
+      "within_stratum_fraction_p95",
+      "masked_set_composition_mean",
+      "masked_set_composition_assignment_sd",
+      "masked_set_composition_p05",
+      "masked_set_composition_p95"
+    ],
+    "record_count": 54,
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "arm_role",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "stratum_type",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "stratum",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "N_s",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "c_m_s_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "c_m_s_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "c_m_s_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "c_m_s_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "within_stratum_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "within_stratum_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "within_stratum_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "within_stratum_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_set_composition_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_set_composition_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_set_composition_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_set_composition_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/mechanism/neighbor_transition_summary.csv": {
+    "field_order": [
+      "study",
+      "condition",
+      "rate",
+      "arm_role",
+      "focal_source",
+      "baseline_winner_masked",
+      "identity_switched",
+      "winner_title_only",
+      "n_masks",
+      "fixed_denominator_defined_masks",
+      "fixed_denominator_mean",
+      "fixed_denominator_assignment_sd",
+      "fixed_denominator_p05",
+      "fixed_denominator_p95",
+      "cell_count_defined_masks",
+      "cell_count_mean",
+      "cell_count_assignment_sd",
+      "cell_count_p05",
+      "cell_count_p95",
+      "cell_fraction_defined_masks",
+      "cell_fraction_mean",
+      "cell_fraction_assignment_sd",
+      "cell_fraction_p05",
+      "cell_fraction_p95",
+      "shift_contribution_sd_defined_masks",
+      "shift_contribution_sd_mean",
+      "shift_contribution_sd_assignment_sd",
+      "shift_contribution_sd_p05",
+      "shift_contribution_sd_p95",
+      "conditional_shift_sd_defined_masks",
+      "conditional_shift_sd_mean",
+      "conditional_shift_sd_assignment_sd",
+      "conditional_shift_sd_p05",
+      "conditional_shift_sd_p95",
+      "baseline_selected_in_cell_defined_masks",
+      "baseline_selected_in_cell_mean",
+      "baseline_selected_in_cell_assignment_sd",
+      "baseline_selected_in_cell_p05",
+      "baseline_selected_in_cell_p95",
+      "selection_losses_in_cell_defined_masks",
+      "selection_losses_in_cell_mean",
+      "selection_losses_in_cell_assignment_sd",
+      "selection_losses_in_cell_p05",
+      "selection_losses_in_cell_p95",
+      "conditional_selected_loss_fraction_defined_masks",
+      "conditional_selected_loss_fraction_mean",
+      "conditional_selected_loss_fraction_assignment_sd",
+      "conditional_selected_loss_fraction_p05",
+      "conditional_selected_loss_fraction_p95"
+    ],
+    "record_count": 192,
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "arm_role",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "focal_source",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_winner_masked",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "identity_switched",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "winner_title_only",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_denominator_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_denominator_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_denominator_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_denominator_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "fixed_denominator_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "cell_count_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "cell_count_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "cell_count_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "cell_count_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "cell_count_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "cell_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "cell_fraction_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "cell_fraction_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "cell_fraction_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "cell_fraction_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "shift_contribution_sd_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "shift_contribution_sd_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "shift_contribution_sd_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "shift_contribution_sd_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "shift_contribution_sd_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "conditional_shift_sd_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "conditional_shift_sd_mean",
+        "type": "float",
+        "nullable": true,
+        "missing_count": 72,
+        "allow_infinity": false
+      },
+      {
+        "name": "conditional_shift_sd_assignment_sd",
+        "type": "float",
+        "nullable": true,
+        "missing_count": 72,
+        "allow_infinity": false
+      },
+      {
+        "name": "conditional_shift_sd_p05",
+        "type": "float",
+        "nullable": true,
+        "missing_count": 72,
+        "allow_infinity": false
+      },
+      {
+        "name": "conditional_shift_sd_p95",
+        "type": "float",
+        "nullable": true,
+        "missing_count": 72,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_in_cell_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_in_cell_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_in_cell_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_in_cell_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_in_cell_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "selection_losses_in_cell_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "selection_losses_in_cell_mean",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "selection_losses_in_cell_assignment_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "selection_losses_in_cell_p05",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "selection_losses_in_cell_p95",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "conditional_selected_loss_fraction_defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "conditional_selected_loss_fraction_mean",
+        "type": "float",
+        "nullable": true,
+        "missing_count": 72,
+        "allow_infinity": false
+      },
+      {
+        "name": "conditional_selected_loss_fraction_assignment_sd",
+        "type": "float",
+        "nullable": true,
+        "missing_count": 72,
+        "allow_infinity": false
+      },
+      {
+        "name": "conditional_selected_loss_fraction_p05",
+        "type": "float",
+        "nullable": true,
+        "missing_count": 72,
+        "allow_infinity": false
+      },
+      {
+        "name": "conditional_selected_loss_fraction_p95",
+        "type": "float",
+        "nullable": true,
+        "missing_count": 72,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/core/conditional_loss_by_margin.csv": {
+    "field_order": [
+      "study",
+      "condition",
+      "rate",
+      "role",
+      "bin_index",
+      "bin_left",
+      "bin_right",
+      "bin_label",
+      "baseline_selected_n",
+      "n_masks",
+      "defined_masks",
+      "total_loss_events",
+      "mean_loss_count",
+      "mean_loss_probability",
+      "mean_retention_probability",
+      "bin_rule",
+      "analysis_label"
+    ],
+    "record_count": 210,
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "bin_index",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "bin_left",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": true
+      },
+      {
+        "name": "bin_right",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": true
+      },
+      {
+        "name": "bin_label",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_selected_n",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "defined_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "total_loss_events",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_loss_count",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_loss_probability",
+        "type": "float",
+        "nullable": true,
+        "missing_count": 105,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_retention_probability",
+        "type": "float",
+        "nullable": true,
+        "missing_count": 105,
+        "allow_infinity": false
+      },
+      {
+        "name": "bin_rule",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "analysis_label",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/core/cross_encoder_agreement.csv": {
+    "field_order": [
+      "study",
+      "n",
+      "k",
+      "rho_cross",
+      "Q_cross",
+      "overlap_n",
+      "overlap_fraction",
+      "replacement_fraction"
+    ],
+    "record_count": 2,
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "n",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "k",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "rho_cross",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "Q_cross",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "overlap_n",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "overlap_fraction",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "replacement_fraction",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/core/claim_provenance.csv": {
+    "field_order": [
+      "output_file",
+      "csv_line",
+      "output_key",
+      "source_files",
+      "source_filter",
+      "formula",
+      "generating_code",
+      "generated_columns"
+    ],
+    "record_count": 268,
+    "columns": [
+      {
+        "name": "output_file",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "csv_line",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "output_key",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_files",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_filter",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "formula",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "generating_code",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "generated_columns",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/core/cross_encoder_source_composition.csv": {
+    "field_order": [
+      "study",
+      "encoder",
+      "source",
+      "selected_n",
+      "k",
+      "selected_composition",
+      "source_cohort_n",
+      "within_source_selection_rate"
+    ],
+    "record_count": 8,
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "encoder",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "selected_n",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "k",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "selected_composition",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_cohort_n",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "within_source_selection_rate",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/core/cutoff_capacity.csv": {
+    "field_order": [
+      "study",
+      "condition",
+      "rate",
+      "role",
+      "n_masks",
+      "k",
+      "band_capacity",
+      "mean_total_lost",
+      "mean_inside_lost",
+      "mean_outside_lost",
+      "mean_per_mask_capacity_lower_bound",
+      "simple_mean_capacity_lower_bound"
+    ],
+    "record_count": 21,
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "k",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "band_capacity",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_total_lost",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_inside_lost",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_outside_lost",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_per_mask_capacity_lower_bound",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "simple_mean_capacity_lower_bound",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/core/source_shifts.csv": {
+    "field_order": [
+      "study",
+      "condition",
+      "rate",
+      "role",
+      "n_masks",
+      "source_A",
+      "source_B",
+      "source_A_weight",
+      "baseline_sd",
+      "baseline_contrast_sd",
+      "masked_contrast_sd",
+      "signed_change_sd",
+      "mean_G",
+      "abs_mean_D",
+      "mean_drift_sd",
+      "source_A_shift_sd",
+      "source_B_shift_sd",
+      "contrast_change_fraction_of_baseline",
+      "derivation",
+      "analysis_label"
+    ],
+    "record_count": 21,
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "condition",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "rate",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_masks",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_A",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_B",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_A_weight",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "baseline_contrast_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "masked_contrast_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "signed_change_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_G",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "abs_mean_D",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "mean_drift_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_A_shift_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_B_shift_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "contrast_change_fraction_of_baseline",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "derivation",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "analysis_label",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/core/baseline_encoder_context.csv": {
+    "field_order": [
+      "study",
+      "encoder",
+      "n",
+      "n_A",
+      "n_B",
+      "k",
+      "source_A",
+      "source_B",
+      "population_sd",
+      "contrast_raw",
+      "contrast_sd"
+    ],
+    "record_count": 4,
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "encoder",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "n",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_A",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "n_B",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "k",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_A",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "source_B",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "population_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "contrast_raw",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "contrast_sd",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      }
+    ]
+  },
+  "data/derived/revision_descriptive/core/cutoff_nesting.csv": {
+    "field_order": [
+      "study",
+      "k",
+      "band_capacity",
+      "outside_n",
+      "margin_gt_point1_n",
+      "intersection_n",
+      "margin_subset_outside",
+      "outside_subset_margin",
+      "outside_only_n",
+      "margin_only_n"
+    ],
+    "record_count": 2,
+    "columns": [
+      {
+        "name": "study",
+        "type": "string",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "k",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "band_capacity",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "outside_n",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "margin_gt_point1_n",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "intersection_n",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "margin_subset_outside",
+        "type": "boolean",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "outside_subset_margin",
+        "type": "boolean",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "outside_only_n",
+        "type": "float",
+        "nullable": false,
+        "missing_count": 0,
+        "allow_infinity": false
+      },
+      {
+        "name": "margin_only_n",
+        "type": "integer",
+        "nullable": false,
+        "missing_count": 0,
         "allow_infinity": false
       }
     ]

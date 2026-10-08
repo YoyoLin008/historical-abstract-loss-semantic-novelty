@@ -1,9 +1,9 @@
-# Release changes
+# Version history
 
-## v1.0.0 — prepared 7 October 2026
+## 1.1.0 — prepared 8 October 2026
 
-Integrated the express scoped author approval: MIT for 37 original Python files and CC BY 4.0 for 79 own non-text/configuration/provenance/documentation files, plus explicitly identified new scope-policy documentation. Added previous-candidate hash/origin mappings and third-party exclusions. Initial reproducibility release prepared for journal submission. This preparation does not imply journal submission or acceptance; actual GitHub/Zenodo verification is recorded separately. Scientific code, data, seeds, configurations and freeze identities remain unchanged; only licensing and release metadata/documentation changed.
+Adds the actual rc.2 revision-stage descriptive analysis code and tests; signed drift, conditional-margin, cutoff-capacity, cross-encoder, realized-intensity and aggregate neighbor summaries; current four-main/two-supplementary figure generation; a portable formatter for the frozen mechanism tables; and updated maps/dictionaries. No original scientific results, masks, seeds, tolerance families, models or historical releases change. All additions retain their post hoc status. Complete masked per-paper scalar and neighbor records remain separately gated and excluded. New publication/license scope requires explicit author approval; no new DOI is invented.
 
-## v1.0.0-rc.1 — 6 October 2026
+## 1.0.0 — published 7 October 2026
 
-First local release candidate prepared for journal submission. Original ACL freeze (4 October), biomedical freeze (5 October), and separately labelled post-confirmation outputs (6 October) retain their identities. Original numeric CSV/JSON payloads and original main scientific modules are byte-identical. Portable reporting/path layers and release documentation are new packaging work. No new mask experiment, encoder run, bootstrap resampling or scientific outcome was performed here. Any new sanitized export history is separate from the original development repository. No public version or archive DOI is claimed.
+Original software, configs, identifiers, numerical outputs, reporting reconstruction and saved cutoff/loss-membership evidence. Frozen commit 82bd064fae8f4aff9a2f0b56bb9ec850bd649e89; version DOI 10.5281/zenodo.23222368. Historical tag and archive remain unchanged. The later documentation commit 1ae54e036b1efe7e45db5c5655d6b64d23a74c93 recorded that verified DOI.

@@ -1,0 +1,7 @@
+study,stratum_type,stratum,N_s,preferred
+ACL,source,ACL,1819,True
+ACL,source,EMNLP,1980,False
+ACL,lexical_proxy,translat,289,True
+ACL,lexical_proxy,nontranslat,3510,False
+Biomedical,source,PLOSCB,1854,True
+Biomedical,source,PLOSGEN,1537,False

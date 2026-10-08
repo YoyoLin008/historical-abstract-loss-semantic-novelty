@@ -1,13 +1,11 @@
 cff-version: 1.2.0
-message: "Cite these reproducibility materials, version 1.0.0. Use the version-specific DOI below."
+message: "Cite version 1.1.0 by its immutable GitHub release until its actual Zenodo version DOI is independently verified. The v1.0.0 DOI does not identify this update."
 type: software
-title: "Historical abstract loss and use-dependent robustness of semantic novelty indicators: reproducibility materials"
+title: "Historical abstract loss and use-dependent robustness of a semantic novelty indicator: reproducibility materials"
 authors:
   - family-names: Lin
     given-names: Yunya
-version: 1.0.0
-doi: 10.5281/zenodo.23222368
-date-released: 2026-10-07
+    affiliation: "School of Information Sciences, University of Illinois Urbana-Champaign, Champaign, IL, USA"
+version: 1.1.0
 repository-code: "https://github.com/YoyoLin008/historical-abstract-loss-semantic-novelty"
-url: "https://zenodo.org/records/23222368"
-abstract: "Controlled historical abstract-loss experiments and separately labelled post-confirmation checks. Includes original numerical outputs, configurations, seeds, scientific code and portable reporting scripts. Per-file scope: MIT for original Python code/tests; CC BY 4.0 for own non-text data/configuration/provenance/documentation, as defined by LICENSE and manifests/license_scope.csv. These are not alternative licenses for the same files. The materials contain no source text, embedding arrays or model weights."
+abstract: "Original frozen experiments and separately labelled post hoc numerical summaries, analysis and current figure/reporting code. Exact per-file MIT and CC BY 4.0 scope is in LICENSE and manifests/license_scope.csv. Complete masked scalar and neighbor records, raw text, embeddings, weights and manuscript are excluded."

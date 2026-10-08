@@ -1,14 +1,14 @@
 {
-  "title": "Historical abstract loss and use-dependent robustness of semantic novelty indicators: reproducibility materials",
+  "title": "Historical abstract loss and use-dependent robustness of a semantic novelty indicator: reproducibility materials",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "creators": [
     {
       "name": "Lin, Yunya",
       "affiliation": "School of Information Sciences, University of Illinois Urbana-Champaign, Champaign, IL, USA"
     }
   ],
-  "description": "Mixed scoped licensing: original Python research/release code and tests are licensed under the MIT License. Original non-text numerical outputs, identifier projections, configurations/provenance and release documentation are licensed under Creative Commons Attribution 4.0 International (CC BY 4.0). The archived root LICENSE specifies the exact file scopes and exclusions. These are separate grants for different materials, not a choice of either license for every file. Source text, model weights, embedding arrays and third-party materials are not relicensed by these grants.\n\nReproducibility materials for controlled historical abstract-loss experiments and separately labelled post-confirmation checks. Includes original numerical outputs, configurations, seeds, scientific code and portable reporting scripts. The archive supports reporting-level reconstruction and cutoff-membership verification. Public cached-score and full raw-to-encoder reproduction are incomplete because original source text, embedding arrays and caches are omitted. Pilot and calibration failures, collection-specific effects and representation-dependent findings remain documented. These materials do not include the private article or its editable source.",
+  "description": "Mixed scoped licensing: MIT for explicitly mapped original Python code/tests; CC BY 4.0 for explicitly mapped original non-text numerical outputs, IDs, configurations, provenance and documentation. LICENSE and manifests/license_scope.csv define scope. Third-party inputs retain their own terms.\n\nUpdated research software with original frozen experiments and separately labelled post hoc summaries, including rc.2 descriptive additions and current figures. Supports reporting reconstruction and saved-membership checks. Complete masked scalar and focal-neighbor records, raw text, embeddings and weights are excluded. Full fresh raw-to-encoder reproduction remains incomplete. No article manuscript/source or private audit history is included.",
   "access_right": "open",
   "license": "other-open",
   "language": "eng",

@@ -1,14 +1,12 @@
-# Scoped licenses for the reproducibility materials
+# Scoped licenses for version 1.1.0 reproducibility materials
 
 Copyright 2026 Yunya Lin.
 
-The author-approved file scope is recorded in manifests/license_scope.csv: MIT applies to its 37 original Python research/release/test/helper files, including their code comments and docstrings; CC BY 4.0 applies to its 79 original non-text output/identifier/configuration/provenance/documentation files. These are per-file assignments, not alternative licenses for the same material. The previous-candidate SHA256 values preserve the reviewed identities; they are not checksums for later edited metadata. The current export manifest supplies release checksums after final metadata is frozen.
+The exact per-file assignments are in `manifests/license_scope.csv`: MIT for named original Python research/reporting/test code; CC BY 4.0 for named original derived non-text outputs, identifier projections, configurations, provenance and documentation. The candidate's new grants become operative only after the author's explicit approval for publication of this exact scope. Earlier approved grants for unchanged historical files remain intact. No blanket grant applies to arbitrary future files.
 
-The author's original wording/compilation in this LICENSE, manifests/license_scope.csv, docs/license_scope_policy.md and .zenodo.json is also under CC BY 4.0, as release documentation within the approved scope. Standard license texts retain their own terms. The explicit new-file policy is in docs/license_scope_policy.md; this notice does not automatically license arbitrary future files.
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ ; legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en . Attribute Yunya Lin, retain notices and indicate modifications. Grants apply only to rights the author is authorized to license; they create no rights over facts or public-domain elements.
 
-CC BY 4.0 notice: The author's original non-text materials marked CC-BY-4.0 are licensed under Creative Commons Attribution 4.0 International. License: https://creativecommons.org/licenses/by/4.0/ . Authoritative legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en . Attribute Yunya Lin, retain supplied notices and identify modifications. The grant applies only to rights the author is authorized to license; it creates no extra rights over bare facts, identifiers or public-domain elements.
-
-No license is granted to source titles/abstracts/author lists, raw provider records, source-text ledgers, model weights/cards, embeddings/arrays, full masked-score vectors, third-party packages/software, publisher templates/fonts, licensed literature, private reports/correspondence, original private history or manuscripts. Referenced dependency versions, model revisions, identifiers and hashes do not relicense external material. Read THIRD_PARTY_NOTICES.md and docs/data_rights.md.
+Excluded: full source titles/abstracts/author lists, raw provider text, embeddings, model weights, complete masked scalar and focal-neighbor records, external libraries/templates/fonts, licensed literature, private project history/audits, and the manuscript/source. Referencing a dependency, identifier, model revision or hash does not relicense that material. See THIRD_PARTY_NOTICES.md and docs/license_scope_policy.md.
 
 ## Standard MIT text — applies only to the mapped MIT files
 

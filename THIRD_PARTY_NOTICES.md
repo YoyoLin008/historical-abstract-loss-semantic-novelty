@@ -7,3 +7,7 @@ The original Python research implementation and new release tooling are attribut
 The title-token lexical bucket is an original deterministic numerical assignment; no titles are distributed. Do not interpret it as a validated subject classification.
 
 The author-approved grants do not cover private manuscripts or old Git history, and do not imply UIUC ownership or endorsement. Original scope wording in the explicitly named new licensing-policy files uses CC BY 4.0; standard license terms remain unmodified.
+
+## Version 1.1.0 additions
+
+New files originate in the same sole-author project with disclosed AI assistance. No sibling-project code, figures, data or text is incorporated. New numerical files contain derived non-text aggregates/provenance; existing public identifiers remain linkable scholarly record IDs. They do not identify clinical participants. No blanket legal clearance for third-party text-derived arrays is asserted. Complete masked scalar and per-focal neighbor records remain outside the public scope.

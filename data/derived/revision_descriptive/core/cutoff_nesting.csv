@@ -1,0 +1,3 @@
+study,k,band_capacity,outside_n,margin_gt_point1_n,intersection_n,margin_subset_outside,outside_subset_margin,outside_only_n,margin_only_n
+ACL,156,16,140,132,132,True,False,8,0
+Biomedical,148,16,132,133,132,False,True,0,1
