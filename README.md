@@ -1,5 +1,7 @@
 # Historical abstract loss and use-dependent robustness of a semantic novelty indicator
 
+[![Zenodo DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23299162.svg)](https://doi.org/10.5281/zenodo.23299162)
+
 Coordinated public release v1.2.0: updated author preprint and supplement, completed same-mask title-fallback/removal comparison, and all prior reproducibility materials. Verified permanent archive: [10.5281/zenodo.23299162](https://doi.org/10.5281/zenodo.23299162). All 197 downloaded payloads match the frozen release. The manuscript remains unreviewed.
 
 The prior original scalar/preprint archive is v1.1.1, DOI https://doi.org/10.5281/zenodo.23298679. Its original 37-file scalar package is unchanged here. Read preprint/manuscript.pdf, preprint/ESM_1.pdf and preprint/ESM_2.zip. The added policy code and all three CSVs are in verification/policy_comparison. They require private cached similarities for original scoring; they do not establish a second public scalar reconstruction.
