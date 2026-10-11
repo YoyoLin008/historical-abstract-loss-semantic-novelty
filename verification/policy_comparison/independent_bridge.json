@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "title_arms": 1200,
+  "comparisons": 7200,
+  "maximum_errors": {
+    "G": 0.0,
+    "T": 5.551115123125783e-17,
+    "Q": 0.0,
+    "drift_sd": 0.0,
+    "source_A_shift_sd": 0.0,
+    "source_B_shift_sd": 0.0
+  },
+  "independent_target": "Fresh independently implemented scalar reconstruction; no original scoring endpoint imports"
+}

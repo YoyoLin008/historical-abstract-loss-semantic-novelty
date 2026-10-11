@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "label": "post hoc policy comparison specified after original results",
+  "utc": "2026-10-11T02:26:13.659104+00:00",
+  "arms": 1200,
+  "policy_evaluations": 2400,
+  "focal_score_checks": 3633600,
+  "exact_title_mismatches": 0,
+  "removal_monotonicity_violations": 0,
+  "synthetic_tests": 6,
+  "baselines": [
+    {
+      "study": "ACL",
+      "N": 1557,
+      "H": 3799,
+      "k": 156,
+      "s0": 0.027866428510990277,
+      "baseline_contrast_sd": -0.13070072669124716
+    },
+    {
+      "study": "Biomedical",
+      "N": 1471,
+      "H": 3391,
+      "k": 148,
+      "s0": 0.03266603677886725,
+      "baseline_contrast_sd": 0.2612866918561994
+    }
+  ],
+  "benchmark": [
+    {
+      "study": "ACL",
+      "first_arm_both_policies_seconds": 0.015532540972344577,
+      "conservative_4x_600_arms_seconds": 37.278098333626986
+    },
+    {
+      "study": "Biomedical",
+      "first_arm_both_policies_seconds": 0.013420708011835814,
+      "conservative_4x_600_arms_seconds": 32.20969922840595
+    }
+  ],
+  "elapsed_seconds": 41.1990886250278,
+  "numpy": "2.3.5",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "script_sha256": "504e44aa85d127a86af439753a6919b6b9de380cda952a99893869a031666e9c",
+  "spec_sha256": "1fb637c98bcd24e593e501354958706adfa86ce16baaabf193c714fd85827636",
+  "inputs_manifest_sha256": "4705a92f4a5e7f0d4dce645dde0cd96007227b6fa4af8e40ac6f34b4769a2775",
+  "outputs_sha256": {
+    "summary.csv": "a0a3d191c1729abc09c0e2bc60403f3ab7250a247e482c51a7676ba9a46957c6",
+    "paired_differences.csv": "16926941933dccbec33ee22e79b88c2c6a1b425ff3ca5ae6f4a0fb8b78646ef6",
+    "per_assignment.csv": "4b233e84815fc900e7a6499686eba846e8d8abc28a9c8ae0fc99b09acc899faf"
+  },
+  "uncertainty": "Assignment SD, p05/p95 variability and MCSE only; no confidence intervals, testing, tolerance classes, population generalization or extension of frozen confirmatory families."
+}

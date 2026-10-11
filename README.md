@@ -1,23 +1,7 @@
 # Historical abstract loss and use-dependent robustness of a semantic novelty indicator
 
-**Public-access release v1.1.1: author preprint + reproducibility materials.** The manuscript is not peer reviewed or journal accepted. Yunya Lin, University of Illinois Urbana-Champaign.
+Coordinated public release v1.2.0: updated author preprint and supplement, completed same-mask title-fallback/removal comparison, and all prior reproducibility materials. This release uses the existing GitHub-Zenodo integration; its actual DOI will be linked after archive verification. The manuscript remains unreviewed.
 
-- [Read the manuscript](preprint/manuscript.pdf)
-- [Read the methods/results supplement](preprint/ESM_1.pdf)
-- [Download numerical supporting information](preprint/ESM_2.zip)
-- [Reconstruct endpoints from the 37-file scalar package](verification/scalar_scores/README.md)
+The prior original scalar/preprint archive is v1.1.1, DOI https://doi.org/10.5281/zenodo.23298679. Its original 37-file scalar package is unchanged here. Read preprint/manuscript.pdf, preprint/ESM_1.pdf and preprint/ESM_2.zip. The added policy code and all three CSVs are in verification/policy_comparison. They require private cached similarities for original scoring; they do not establish a second public scalar reconstruction.
 
-With Python 3.12 and the pinned dependencies installed:
-
-```sh
-python -B verification/scalar_scores/reconstruct_endpoints_from_scalar_scores.py --package verification/scalar_scores --output outputs/scalar_verification
-python -B -m unittest discover -s verification/scalar_scores/tests -v
-```
-
-The independent verifier computes from complete saved scores, ordered identifiers and source labels rather than using saved endpoints as calculation inputs. Expected outputs:5,000 scored arms,7,630,200 masked scalar values,75 family-summary rows and116,898 checks;15 synthetic fixtures. This does not perform fresh scoring from embeddings or reacquisition/encoding.
-
-The original 146-file research/reporting release is preserved in [v1.1.0](https://doi.org/10.5281/zenodo.23242635). This additive version preserves its scientific payloads and adds the preprint/supplements and complete scalar-verification package. The complete v1.1.1 archive, including the preprint and all 37 scalar-verification files, is publicly available at [Zenodo DOI 10.5281/zenodo.23298679](https://doi.org/10.5281/zenodo.23298679). All 188 downloaded payloads match the frozen release.
-
-The root LICENSE and manifests/license_scope.csv provide exact scoped MIT/CC BY 4.0 grants. No third-party raw text, embeddings, model weights, manuscript TeX templates, private audits, correspondence or focal-neighbor package is included. The 37scalar files supersede their previous private-access status; the 10neighbor files remain private. See [docs/public_access_v111.md](docs/public_access_v111.md) for provenance and scope.
-
-Existing reporting commands remain available in [docs/reproduction.md](docs/reproduction.md). Statements explicitly about historicalv1.1.0 retain that historical scope. A public preprint is not journal publication or acceptance.
+Public scope excludes all focal-neighbor records, source texts, embeddings, weights, editorial correspondence and editable templates. The new original policy code is MIT; its outputs/specification/documentation and revised author documents are CC BY 4.0. The author explicitly approved these scoped licenses and publication on 11 October 2026. Existing historical grants remain intact.

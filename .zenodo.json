@@ -1,14 +1,14 @@
 {
   "title": "Historical abstract loss and use-dependent robustness of a semantic novelty indicator: reproducibility materials",
   "upload_type": "software",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "creators": [
     {
       "name": "Lin, Yunya",
       "affiliation": "School of Information Sciences, University of Illinois Urbana-Champaign, Champaign, IL, USA"
     }
   ],
-  "description": "Research software and derived numerical outputs, now including the author preprint and supplementary materials and the 37-file complete scalar-verification package. The manuscript is not peer-reviewed or journal accepted. The package independently reconstructs 5,000 scored arms and 75 family means from saved scores. No original scientific results changed. Scoped MIT applies to named original Python code/tests; CC BY 4.0 to named author-owned numerical outputs, identifiers, documentation and preprint/supplement works. Third-party rights remain excluded. Full raw-acquisition/encoding reproduction was not performed. Focal-neighbor records, raw text, embeddings, weights and private history are excluded.",
+  "description": "Coordinated author preprint and research reproducibility materials, adding a completed post hoc same-mask title-fallback versus record-removal comparison. Manuscript not peer reviewed. Original 37-file saved-scalar reconstruction unchanged; the separate policy code requires private cached similarities and is not standalone raw-to-encoder reproduction. Mixed scoped MIT/CC BY 4.0 licenses; third-party inputs excluded.",
   "access_right": "open",
   "license": "other-open",
   "language": "eng",
