@@ -15,16 +15,16 @@
       "sha256": "770d870966bcc6bbefd71eee990c04766f94cd59a745c7ea41bd868260adc89f"
     },
     "CITATION.cff": {
-      "bytes": 919,
-      "sha256": "bca84f0251b03637ea71bcdf64b14a50b6c7e990178e100fa286990bde317bd8"
+      "bytes": 929,
+      "sha256": "5e0cdcd29b6aad42307e73804f4a05ba1b44e01ec0f2b13cbd6b6fda231ec347"
     },
     "LICENSE": {
       "bytes": 3227,
       "sha256": "c5cb04f770ba90a1569be4cefe8ce66b17e0292ff933e0679a797717003c16a3"
     },
     "README.md": {
-      "bytes": 1230,
-      "sha256": "dc82ae8fb4baaa2e2dbd6ca457b40e2e7dde7515f30c906d58fdce5e63b8ffcf"
+      "bytes": 1264,
+      "sha256": "03c5b8d12b0349e3ecf882d994c9f1a1e83fc893062f89632af1f6ab1963908b"
     },
     "THIRD_PARTY_NOTICES.md": {
       "bytes": 2517,
