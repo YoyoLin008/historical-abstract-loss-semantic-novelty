@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite this version 1.1.1 public-access release; the actual new DOI will be added after archive verification."
+message: "Cite this version 1.1.1 public-access release using its verified version DOI."
 type: software
 title: "Historical abstract loss and use-dependent robustness of a semantic novelty indicator: reproducibility materials"
 authors:
@@ -11,3 +11,4 @@ repository-code: "https://github.com/YoyoLin008/historical-abstract-loss-semanti
 abstract: "Research code and derived outputs, author preprint/supplements and complete scalar-verification package. Manuscript not peer reviewed. No raw acquisition/encoder reconstruction claimed; no raw texts, embeddings, weights or focal-neighbor records included."
 date-released: 2026-10-11
 url: "https://github.com/YoyoLin008/historical-abstract-loss-semantic-novelty/releases/tag/v1.1.1"
+doi: "10.5281/zenodo.23298679"

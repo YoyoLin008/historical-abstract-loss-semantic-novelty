@@ -16,7 +16,7 @@ python -B -m unittest discover -s verification/scalar_scores/tests -v
 
 The independent verifier computes from complete saved scores, ordered identifiers and source labels rather than using saved endpoints as calculation inputs. Expected outputs:5,000 scored arms,7,630,200 masked scalar values,75 family-summary rows and116,898 checks;15 synthetic fixtures. This does not perform fresh scoring from embeddings or reacquisition/encoding.
 
-The original 146-file research/reporting release is preserved in [v1.1.0](https://doi.org/10.5281/zenodo.23242635). This additive version preserves its scientific payloads and adds the preprint/supplements and complete scalar-verification package. The existing GitHub–Zenodo integration archives this release; no new DOI is asserted until the actual record is verified.
+The original 146-file research/reporting release is preserved in [v1.1.0](https://doi.org/10.5281/zenodo.23242635). This additive version preserves its scientific payloads and adds the preprint/supplements and complete scalar-verification package. The complete v1.1.1 archive, including the preprint and all 37 scalar-verification files, is publicly available at [Zenodo DOI 10.5281/zenodo.23298679](https://doi.org/10.5281/zenodo.23298679). All 188 downloaded payloads match the frozen release.
 
 The root LICENSE and manifests/license_scope.csv provide exact scoped MIT/CC BY 4.0 grants. No third-party raw text, embeddings, model weights, manuscript TeX templates, private audits, correspondence or focal-neighbor package is included. The 37scalar files supersede their previous private-access status; the 10neighbor files remain private. See [docs/public_access_v111.md](docs/public_access_v111.md) for provenance and scope.
 
