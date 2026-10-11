@@ -1,0 +1,269 @@
+{
+  "datasets": [
+    {
+      "alpha": 0.05,
+      "array_dtype": "float64",
+      "baseline_sha256": "e0e5a5e3f757b2e8bfee9c48e52f459f15db7d1b922698e8f615810af2bf5ee6",
+      "critical": 3.3090595211511644,
+      "df": 199,
+      "encoder": "SPECTER",
+      "encoder_provenance": {
+        "encoder_fingerprint": {
+          "batch": 8,
+          "chunk": 64,
+          "code_sha256": "6d3d10cf23d8578794b68cdf9eaf77f091ca587ce629794b418e8e2c04064a29",
+          "data_sha256": "250cdbf79417632bd74c765e536a57afe5ee7e9c4366cf48282a37f171486034",
+          "device": "cpu",
+          "dtype": "float32",
+          "input": "title + [SEP] + abstract; title-only title + [SEP]",
+          "legacy_sample_max_abs_difference": {
+            "full": 0.0,
+            "title": 0.0
+          },
+          "model": "allenai/specter",
+          "model_files": {
+            "README.md": "f96b667d304d22019e55a5928baa6eed52636eaf2d9d74e1d590b9405e28af18",
+            "config.json": "6bbfb71747935be052561b95cfeb1450ace786225f0a5379bb0e2b79604c33e2",
+            "pytorch_model.bin": "a260abd90ae4bbb5aae9e040b5910ab68f27bac0cc13b1d1c9b83e42e880972c",
+            "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+            "tokenizer_config.json": "2e15575ac9455be4a3672e5ebe1c7760281e8239a0f0e43eb6992563cbdfd071",
+            "vocab.txt": "f99aae27d5a572628760968078207b9d79ff241cc75de4b9e4323feabc61fd6b"
+          },
+          "normalize": "L2",
+          "numpy": "2.3.5",
+          "pooling": "last_hidden_state_CLS",
+          "python": "3.12.14",
+          "requirements_lock_sha256": "9f5e3a0fd8abdb1388f64781a53a58cf927bbe90fa718bba715d7b791dfcc3a3",
+          "reuse": {
+            "manifest_sha256": "8f8b44a9f9cce4a975b321cc94d13036bae5c1fa3e5c13a524edb96bb0d466ca",
+            "outputs": {
+              "full": "b518f24902c76d83babde8b3e74a5b4467c93a1b9a9289961a7edee628ef44e7",
+              "title": "17c6b8cc91eec01a83c6f7c510efd4f5b58929abf5182805e68a1ff9cd00c2f2"
+            },
+            "records_sha256": "ea12bd83b7cece147e6d1cf78f568a3cbeaac3d15b831ede7f6957030c1373e0"
+          },
+          "revision": "81cbfb43d4fc2e728d5b4201ce14987db8d0854c",
+          "schema": 2,
+          "threads": 4,
+          "torch": "2.8.0",
+          "transformers": "4.57.1",
+          "truncation": 512
+        },
+        "manifest_sha256": "188d09c8132f623506798b5b94ca44427455d53cac765b20fd1f0cc5872c5535",
+        "model": "allenai/specter",
+        "revision": "81cbfb43d4fc2e728d5b4201ce14987db8d0854c",
+        "status": "verified"
+      },
+      "family_size": 45,
+      "key": "specter_acl",
+      "lossless_reload": true,
+      "masked_scalar_values": 4671000,
+      "n_arms": 3000,
+      "n_focal": 1557,
+      "n_history": 3799,
+      "origin_run_fingerprint": "22a4a6efcabe87fc287a68852d1fae22f7efc1ed718e39590950f675e4a7c714",
+      "source_counts": [
+        710,
+        847
+      ],
+      "source_encoding": "JSON numeric values originating from recorded float32 novelty computations; no downcast or rounding; float64 preserves every parsed JSON number exactly",
+      "sources": [
+        "ACL",
+        "EMNLP"
+      ],
+      "study": "ACL"
+    },
+    {
+      "alpha": 0.05,
+      "array_dtype": "float64",
+      "baseline_sha256": "4ef67b92e08c578baf1d4043a60790fc2a1c5db5de0c1f19423f90a61f1617ad",
+      "critical": 2.8987694542968003,
+      "df": 199,
+      "encoder": "SPECTER2",
+      "encoder_provenance": {
+        "model_identity": {
+          "adapter": {
+            "id": "allenai/specter2",
+            "sha": "2081559630a80fc5851d8f798a05ba81e9468089"
+          },
+          "base": {
+            "id": "allenai/specter2_base",
+            "sha": "3447645e1def9117997203454fa4495937bfbd83"
+          }
+        },
+        "scoring_manifest_sha256": "e5607358355371622b58ad62478edff01cfd4c6e29b67cb4320783af9ec8a703",
+        "vector_code_sha256": "f7a929e62e1662877d20d0a8d54291fa90057f53b791f2f785130890f117e1fb"
+      },
+      "family_size": 12,
+      "key": "specter2_acl",
+      "lossless_reload": true,
+      "masked_scalar_values": 311400,
+      "n_arms": 200,
+      "n_focal": 1557,
+      "n_history": 3799,
+      "origin_run_fingerprint": "22a4a6efcabe87fc287a68852d1fae22f7efc1ed718e39590950f675e4a7c714",
+      "source_counts": [
+        710,
+        847
+      ],
+      "source_encoding": "JSON numeric values originating from recorded float32 novelty computations; no downcast or rounding; float64 preserves every parsed JSON number exactly",
+      "sources": [
+        "ACL",
+        "EMNLP"
+      ],
+      "study": "ACL"
+    },
+    {
+      "alpha": 0.05,
+      "array_dtype": "float64",
+      "baseline_sha256": "573cf6d5d855b8eecb79c105438a2ef8f6203338cd786c4a380b5f1b66870e96",
+      "critical": 3.029133739375753,
+      "df": 199,
+      "encoder": "SPECTER",
+      "encoder_provenance": {
+        "encoder_fingerprint": {
+          "batch": 8,
+          "chunk": 64,
+          "code_sha256": "6d3d10cf23d8578794b68cdf9eaf77f091ca587ce629794b418e8e2c04064a29",
+          "data_sha256": "7313fd7c643eaf601b25526d119e54098b422921b8bbab32ebd02455795fd1b9",
+          "device": "cpu",
+          "dtype": "float32",
+          "input": "title + [SEP] + abstract; title-only title + [SEP]",
+          "legacy_sample_max_abs_difference": {},
+          "model": "allenai/specter",
+          "model_files": {
+            "README.md": "f96b667d304d22019e55a5928baa6eed52636eaf2d9d74e1d590b9405e28af18",
+            "config.json": "6bbfb71747935be052561b95cfeb1450ace786225f0a5379bb0e2b79604c33e2",
+            "pytorch_model.bin": "a260abd90ae4bbb5aae9e040b5910ab68f27bac0cc13b1d1c9b83e42e880972c",
+            "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+            "tokenizer_config.json": "2e15575ac9455be4a3672e5ebe1c7760281e8239a0f0e43eb6992563cbdfd071",
+            "vocab.txt": "f99aae27d5a572628760968078207b9d79ff241cc75de4b9e4323feabc61fd6b"
+          },
+          "normalize": "L2",
+          "numpy": "2.3.5",
+          "pooling": "last_hidden_state_CLS",
+          "python": "3.12.14",
+          "requirements_lock_sha256": "9f5e3a0fd8abdb1388f64781a53a58cf927bbe90fa718bba715d7b791dfcc3a3",
+          "reuse": null,
+          "revision": "81cbfb43d4fc2e728d5b4201ce14987db8d0854c",
+          "schema": 2,
+          "threads": 4,
+          "torch": "2.8.0",
+          "transformers": "4.57.1",
+          "truncation": 512
+        },
+        "manifest_sha256": "a661f121edf754c2378d0b1dc2d05500e65e46a9508c3c51022cda49198f561d",
+        "model": "allenai/specter",
+        "revision": "81cbfb43d4fc2e728d5b4201ce14987db8d0854c",
+        "status": "verified"
+      },
+      "family_size": 18,
+      "key": "specter_biomedical",
+      "lossless_reload": true,
+      "masked_scalar_values": 1765200,
+      "n_arms": 1200,
+      "n_focal": 1471,
+      "n_history": 3391,
+      "origin_run_fingerprint": "70f44141c1a58bc14880dba872c84a589bd859a6e3e69fe1d27443a5e84d9d80",
+      "source_counts": [
+        934,
+        537
+      ],
+      "source_encoding": "JSON numeric values originating from recorded float32 novelty computations; no downcast or rounding; float64 preserves every parsed JSON number exactly",
+      "sources": [
+        "PLOSCB",
+        "PLOSGEN"
+      ],
+      "study": "Biomedical"
+    },
+    {
+      "alpha": 0.05,
+      "array_dtype": "float64",
+      "baseline_sha256": "f1bc6284d8483e1286fd4c6b82d89bae47aec578fd66736c3fd3b64c6cc5d1e8",
+      "critical": 2.8987694542968003,
+      "df": 199,
+      "encoder": "SPECTER2",
+      "encoder_provenance": {
+        "model_identity": {
+          "adapter": {
+            "id": "allenai/specter2",
+            "sha": "2081559630a80fc5851d8f798a05ba81e9468089"
+          },
+          "base": {
+            "id": "allenai/specter2_base",
+            "sha": "3447645e1def9117997203454fa4495937bfbd83"
+          }
+        },
+        "scoring_manifest_sha256": "e5607358355371622b58ad62478edff01cfd4c6e29b67cb4320783af9ec8a703",
+        "vector_code_sha256": "f7a929e62e1662877d20d0a8d54291fa90057f53b791f2f785130890f117e1fb"
+      },
+      "family_size": 12,
+      "key": "specter2_biomedical",
+      "lossless_reload": true,
+      "masked_scalar_values": 882600,
+      "n_arms": 600,
+      "n_focal": 1471,
+      "n_history": 3391,
+      "origin_run_fingerprint": "70f44141c1a58bc14880dba872c84a589bd859a6e3e69fe1d27443a5e84d9d80",
+      "source_counts": [
+        934,
+        537
+      ],
+      "source_encoding": "JSON numeric values originating from recorded float32 novelty computations; no downcast or rounding; float64 preserves every parsed JSON number exactly",
+      "sources": [
+        "PLOSCB",
+        "PLOSGEN"
+      ],
+      "study": "Biomedical"
+    }
+  ],
+  "documented_reconciliation_tolerances": {
+    "G": 2e-05,
+    "Q": 2e-10,
+    "T": 2e-10
+  },
+  "input_sha256": {
+    "configs/confirmation_seeds_v1.json": "e67d1db21252f0f98fbe2921ff440929dd50799069d841af03ef136904264c3e",
+    "configs/pubmed_replication_seeds_v1.json": "bce1f5c2200f143bd95233820bca558b856eedc054331e86c18313c5bab2fd4f",
+    "data/confirmation_v1/cohort_manifest.json": "5ac866f416c3aa91db776bd7223495636480d16b882a0a79967d26eedab2a42b",
+    "replication/data/cohort_manifest.json": "ac335a05e2db5de09b161b5780ec1dcaa30a9d7f5aed1097b8babe5b6a8ccbb0",
+    "results/confirmation_analysis/baseline_cutoff.json": "b5934f1fff6678e65967236f74dddbdc569e9e0494b3af76425b2cc1945d440f",
+    "results/confirmation_analysis/table2_aggregate.csv": "a5028b979dd7fa8c00c7f2ceb3b352c62b43db8dcabd0961300b379c564c3f2e",
+    "results/confirmation_analysis/table3_rank_selection.csv": "8d2df6bf1c93d20bcd8d99eea094d5b6ea1e5a29987202e8136eb47cc5b68c25",
+    "results/confirmation_analysis/table4_paired_primary.csv": "21640180ab36a564388fd4fdbf813c573b4ddae5cc1816b67e732253cf8b21f4",
+    "results/confirmation_v1/baseline.json": "64a8d2d3a4436932c19f364705af61f18643888856db56d045ec498c07754ce0",
+    "results/confirmation_v1/mask_results.jsonl": "05ffd3750145383ade69644863199cae786bdea6bfa1985705593bab03061bef",
+    "results/confirmation_v1/run_manifest.json": "27f176396978c00a0021b837832ee2d0bf8518a95a08f6ad3f1d52f429bb9f28",
+    "results/pubmed_replication_analysis/baseline_cutoff.json": "828a237225d69fcabbd09f5f08d96cd325c8eb635e5c62f2e6ae33a11431f769",
+    "results/pubmed_replication_analysis/table2_aggregate.csv": "4411a3e3238afdc80e6c95a99fc7a01962975318ab1ff6cd0df33ba7fbbf4132",
+    "results/pubmed_replication_analysis/table3_rank_selection.csv": "e870255eba8f3a67bfade1a35562c7090503332e5e64f75cca93301f059df546",
+    "results/pubmed_replication_analysis/table4_paired_primary.csv": "06ba9aeb37ba27056964f20ac3b72f340db99aa481a7741e0887ebb323eb9f05",
+    "results/pubmed_replication_v1/baseline.json": "6578d5b19e7b932745dd1a48dcfe0a7553a4ca5e1fac4a198f2fd22d319e0ea5",
+    "results/pubmed_replication_v1/mask_results.jsonl": "7929642bbea44b8f3fdada12ae14876ed82c205ccc48e50618e0ca9cbd37f580",
+    "results/pubmed_replication_v1/run_manifest.json": "47ed2ff86fe131b4338d2135030ef5a7aef91204410d578eb222d951b86b37cc",
+    "scientometrics_revision/analyses/encoder/encoder_sensitivity/baselines.json": "6bf4c3478a1a30c8e390aae5654015d92bf34856a96f64aae977e6c90a5999b2",
+    "scientometrics_revision/analyses/encoder/encoder_sensitivity/mask_results.jsonl": "061f76b45d2fa17607ccee2a599d15eff1b698a2bdbaf0bf22b56c2a8d4e4789",
+    "scientometrics_revision/analyses/encoder/encoder_sensitivity/readout.json": "1514a40abbb11d05f45242827fcbb0f523af1a2f79d27cd8ba74e7c20bf5a702",
+    "scientometrics_revision/analyses/encoder/encoder_sensitivity/scoring_manifest.json": "e5607358355371622b58ad62478edff01cfd4c6e29b67cb4320783af9ec8a703",
+    "scientometrics_revision/analyses/encoder/specter2_adapter_metadata.json": "661546bd8ffcdf3575cf3bef13fc0d77722aa4d790e60244375da1249e509647",
+    "scientometrics_revision/analyses/encoder/specter2_base_metadata.json": "ed35ded8a600ff2bc89ed188f0a32697d227c287908a15ea8feea0a36bae33ef",
+    "scientometrics_submission_v1.0.0-rc.1/04_public_release/repository/data/derived/cutoff_verification/acl_lost_ids.jsonl": "1bf26576d762d6c4e3d3110d050d99e4209e23e0fade6d4e30587307be879a44",
+    "scientometrics_submission_v1.0.0-rc.1/04_public_release/repository/data/derived/cutoff_verification/baseline_membership.csv": "36131bfe47a9ae92e34d55771bfebb5fd2d442c0907f1026b83dc242eec122c4",
+    "scientometrics_submission_v1.0.0-rc.1/04_public_release/repository/data/derived/cutoff_verification/biomedical_lost_ids.jsonl": "0112ce666ac16f66dd788e9a72ac827968eb13abef539189eb03016c5bc9a146",
+    "scientometrics_submission_v1.0.0-rc.1/04_public_release/repository/data/derived/cutoff_verification/specter2_lost_ids.jsonl": "b1d47ed4545037c134a7e699ce7678782f3915f1a726da03625f370699b573a2",
+    "scientometrics_submission_v1.0.0-rc.1/04_public_release/repository/manifests/license_scope.csv": "b89806b21b45623905049d3f5feb3344f788aa324b6b7de37d61677f060943f1"
+  },
+  "license_scope_note": "Scoped MIT for the three original Python code/test files; CC BY 4.0 for the 34 original numerical/identifier/configuration/documentation files. Explicitly approved by the author on 11 October 2026 for this release. No third-party text, embeddings or weights grant.",
+  "original_mean_count": 63,
+  "reconciliation_source": [
+    "analysis/confirmatory_readout.py:23",
+    "replication/analysis.py:26"
+  ],
+  "schema_version": 1,
+  "specter2_mean_count": 12,
+  "status": "PUBLIC_RELEASE_PACKAGE_V1.1.1",
+  "total_arms": 5000,
+  "total_masked_values": 7630200,
+  "historical_old_license_scope_source_sha256": "b89806b21b45623905049d3f5feb3344f788aa324b6b7de37d61677f060943f1",
+  "historical_new_scalar_files_in_old_license_scope": 0
+}

@@ -1,14 +1,14 @@
 {
   "title": "Historical abstract loss and use-dependent robustness of a semantic novelty indicator: reproducibility materials",
   "upload_type": "software",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "creators": [
     {
       "name": "Lin, Yunya",
       "affiliation": "School of Information Sciences, University of Illinois Urbana-Champaign, Champaign, IL, USA"
     }
   ],
-  "description": "Mixed scoped licensing: MIT for explicitly mapped original Python code/tests; CC BY 4.0 for explicitly mapped original non-text numerical outputs, IDs, configurations, provenance and documentation. LICENSE and manifests/license_scope.csv define scope. Third-party inputs retain their own terms.\n\nUpdated research software with original frozen experiments and separately labelled post hoc summaries, including rc.2 descriptive additions and current figures. Supports reporting reconstruction and saved-membership checks. Complete masked scalar and focal-neighbor records, raw text, embeddings and weights are excluded. Full fresh raw-to-encoder reproduction remains incomplete. No article manuscript/source or private audit history is included.",
+  "description": "Research software and derived numerical outputs, now including the author preprint and supplementary materials and the 37-file complete scalar-verification package. The manuscript is not peer-reviewed or journal accepted. The package independently reconstructs 5,000 scored arms and 75 family means from saved scores. No original scientific results changed. Scoped MIT applies to named original Python code/tests; CC BY 4.0 to named author-owned numerical outputs, identifiers, documentation and preprint/supplement works. Third-party rights remain excluded. Full raw-acquisition/encoding reproduction was not performed. Focal-neighbor records, raw text, embeddings, weights and private history are excluded.",
   "access_right": "open",
   "license": "other-open",
   "language": "eng",
@@ -20,6 +20,5 @@
     "measurement robustness"
   ],
   "notes": "The generic Other (Open) record label summarizes the mixed open licenses. Consult the archived LICENSE and individual license texts for exact scope; it is not a blanket MIT or CC BY 4.0 grant. Substantial AI assistance is disclosed in the release documentation. The human author remains accountable for the work.",
-  "doi": "10.5281/zenodo.23242635",
-  "publication_date": "2026-10-08"
+  "publication_date": "2026-10-11"
 }

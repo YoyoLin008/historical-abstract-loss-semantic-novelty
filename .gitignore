@@ -21,3 +21,6 @@ replication/data/
 results/
 *.log
 *.pid
+
+# Explicitly approved scalar verification package only.
+!verification/scalar_scores/*/scores.npz

@@ -1,3 +1,7 @@
+# v1.1.1 — public manuscript and scalar verification
+
+Adds the author preprint and supplements, plus the 37-file complete scalar-to-endpoint reconstruction package. Scientific results and prior releases are unchanged. Public access now includes the independent verifier/tests and complete saved scores, but not focal-neighbor records, text, embeddings or weights. No journal acceptance or full raw-to-encoder reproduction is claimed.
+
 # Version history
 
 ## 1.1.0 — published 8 October 2026
